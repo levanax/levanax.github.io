@@ -1,0 +1,50 @@
+override: true
+
+# html lang
+language:
+  - zh-cn
+
+# main menu navigation
+menu:
+  menu_home: /
+  menu_archives: /archives
+  menu_about: /about
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/pond.css
+- /css/materialize.css
+- /css/main.css
+- /css/icon.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/jquery-3.2.1.min.js
+- /js/materialize.min.js
+- /js/pond.js
+- /js/r.js
+- /js/main.js
+
+scripts_post:
+- /js/post.js
+
+scripts_about:
+- /js/about.js
+
+
+email: eg@hotmail.com
+
+#友情链接
+friendship_chaining_site:
+  Google: www.google.com
+
+github_username:
+
+
+rss: /atom.xml
+
+  
+

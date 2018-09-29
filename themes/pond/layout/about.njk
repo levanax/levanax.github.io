@@ -1,0 +1,17 @@
+{% extends 'includes/layout.njk' %}
+
+{% block body %}
+   <div class="card ">
+      <div class="card-content">
+        <span class="card-title">{{ page.title }}</span>
+        {{ page.content | safe }}
+      </div>
+    </div>
+    {% include 'includes/pagination.njk' %}
+    
+    {% if theme.scripts_about !== undefined and theme.scripts_about.length > 0 %}
+      {% for url in theme.scripts_about %}
+        <script src="{{ url }}"></script>
+      {% endfor %}
+    {% endif %}
+{% endblock %}

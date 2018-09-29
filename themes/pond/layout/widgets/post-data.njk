@@ -1,0 +1,22 @@
+{% if page.title %}
+  {% set postItem = page %}
+{% endif %}
+
+{% if postItem.date %}
+  <time datetime="{{ postItem.date.toJSON() }}">
+  <li><i class="tiny material-icons">access_time</i> <span>{{ postItem.date.format('M/D/Y') }}</span></li>
+  </time>
+{% endif %}
+
+{% if postItem.categories.length > 0 %}
+  {% for categoryItem in postItem.categories.toArray() %}
+    <li><i class="tiny material-icons">folder</i> <span><a href="{{ config.root }}{{ categoryItem.path }}">{{ categoryItem.name }}</a></span></li>
+  {% endfor %}
+{% endif %}
+
+{% if postItem.tags.length > 0 %}
+  {% for tagItem in postItem.tags.toArray() %}
+    <li><i class="tiny material-icons">label</i> <span><a href="{{ config.root }}{{ tagItem.path }}">{{ tagItem.name }}</a></span>
+    </li>
+  {% endfor %}
+{% endif %}

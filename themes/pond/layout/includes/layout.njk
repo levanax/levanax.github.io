@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="{{ config.language }}">
+{% include 'widgets/head.njk' %}
+{% if theme.scripts !== undefined and theme.scripts.length > 0 %}
+  {# scripts list from config.yml #}
+  {% for url in theme.scripts %}
+    <script src="{{ url }}"></script>
+  {% endfor %}
+{% endif %}
+<body class="">
+{% include 'widgets/header.njk' %}
+<main class="container">
+  	<div class="row">
+    {% block body %}{% endblock %}
+  	</div>
+</main>
+{% include 'widgets/footer.njk' %}
+</body>
+</html>

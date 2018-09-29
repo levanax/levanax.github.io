@@ -1,0 +1,6 @@
+{% if theme.github_username %}
+	<a class="white-text" href="https://github.com/{{ theme.github_username }}">
+		<span class="icon icon--github">{% include './icon-github.svg' %}</span>
+		<span class="username">{{ theme.github_username }}</span>
+	</a>
+{% endif %}

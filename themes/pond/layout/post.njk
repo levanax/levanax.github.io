@@ -1,0 +1,39 @@
+{% extends 'includes/layout.njk' %}
+
+{% block body %}
+  {% set tocContent = toc(page.content,{  class: 'pinned-index table-of-contents', list_number: true }) %}
+  <div class="row ">
+      {% if tocContent %}
+      <div class="col s12  m8 l9">
+      {% else %}
+      <div class="col s12  m12 l12">
+      {% endif %}
+        <div class="post white">
+          <div class="post-title"><h2><i class="material-icons green-text">note</i>&nbsp;{{ page.title }}</h2></div>
+          <div class="row">
+            <div class="post-data">
+              <ul>
+                 {% include 'widgets/post-data.njk'%}
+              </ul>
+            </div>
+          </div>
+          <div id='postContent' class="post-content">
+            {{ page.content | safe }}
+          </div>
+        </div>
+      </div>
+      {% if tocContent %}
+        <div class="col m4 l3 post-page-right hide-on-small-only">
+          <div id="postToc" class="toc-wrapper white" >
+            {{  tocContent | safe }}
+          </div>
+        </div>
+      {% endif %}
+  </div>
+    {% include 'includes/pagination.njk' %}
+    {% if theme.scripts_post !== undefined and theme.scripts_post.length > 0 %}
+      {% for url in theme.scripts_post %}
+        <script src="{{ url }}"></script>
+      {% endfor %}
+    {% endif %}
+{% endblock %}

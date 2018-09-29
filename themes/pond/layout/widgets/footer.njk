@@ -1,0 +1,35 @@
+<footer class="page-footer transparent">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">{{ __('title') }}</h5>
+        <p class="grey-text text-lighten-4">{{ __('site_desc') }}</p>
+        <p class="grey-text text-lighten-4">{{ __('contact_me') }}: {{ theme.email }}</p>
+        <p class="grey-text text-lighten-4">
+          {% include './little/icon-github.njk' %}
+          {% if theme.rss %}
+            &nbsp;&nbsp;&nbsp; 订阅 
+            <a class="rss white-text" href="{{ theme.rss }}" title="RSS"><i class="material-icons footer-i">rss_feed</i>RSS</a>
+          {% endif %}
+        </p>
+        
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">{{ __('friendship_chaining_site') }}</h5>
+        <ul>
+          {% if theme.friendship_chaining_site %}
+            {% for key,value in theme.friendship_chaining_site %}
+              <li><a class="grey-text text-lighten-3" target="_blank" href="{{ theme.friendship_chaining_site[key] }}">{{ key }}</a></li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2017 - 2018  {{ config.author }}
+    <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+    </div>
+  </div>
+</footer>

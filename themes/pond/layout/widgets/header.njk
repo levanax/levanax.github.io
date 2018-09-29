@@ -1,0 +1,21 @@
+<!-- <div class="placeholder-head">&nbsp;</div> -->
+<header>
+  <nav class="transparent" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo">{{ __('title') }}</a>
+      <ul class="right hide-on-med-and-down">
+        {% for key,value in theme.menu %}
+          <li><a href="{{ theme.menu[key] }}">{{ __(key) }}</a></li>
+        {% endfor %}
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+        {% for key,value in theme.menu %}
+          <li><a href="{{ theme.menu[key] }}">{{ __(key) }}</a></li>
+        {% endfor %}
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="progress page-progress">
+      <div class="indeterminate"></div>
+  </div>
+</header>

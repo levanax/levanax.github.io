@@ -1,0 +1,29 @@
+{% if page.posts.length > 0 %}
+  <div id="recent-posts">
+    {% for postItem in page.posts.sort('-date').toArray() %}
+      <div class="card ">
+                <div class="card-content">
+                  <span class="card-title">
+                    <i class="material-icons dp48 green-text">note</i>&nbsp;
+                    <a href="{{ config.root }}{{ postItem.path }}">{{ postItem.title }}</a>
+                  </span>
+                  <div  class="row">
+                    <div class="post-data">
+                    <ul>
+                      {% include 'widgets/post-data.njk'%}
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="post-excerpt">
+                    {% if postItem.excerpt %}
+                      {{ postItem.excerpt | safe  }}
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="card-action">
+                  &nbsp;<a  class="right blue-text" href="{{url_for(postItem.path)}}">{{ __('read_more') }}</a>
+                </div>
+              </div>
+    {% endfor %}
+  </div>
+{% endif %}

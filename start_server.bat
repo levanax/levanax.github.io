@@ -1,0 +1,1 @@
+hexo server -p 8686 start

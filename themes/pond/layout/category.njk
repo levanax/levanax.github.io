@@ -1,0 +1,31 @@
+{% extends 'includes/layout.njk' %}
+
+{% block body %}
+<div class="card">
+<div class="card-content">
+  <div id="category">
+    <h1>{{ page.category }}</h1>
+    {% for postItem in page.posts.toArray() %}
+      <div class="category-item">
+        {% if postItem.link %}
+          <a href="{{ url_for(postItem.link) }}" target="_blank">
+            {{ postItem.title or 'No Title' }}
+          </a>
+        {% else %}
+          <a href="{{ url_for(postItem.path) }}">
+            {{ postItem.title or 'No Title' }}
+          </a>
+        {% endif %}
+
+        <i class="tiny material-icons">access_time</i>
+        <time datetime="{{ date_xml(postItem.date) }}">
+          {{ date(postItem.date) }}
+        </time>
+      </div>
+    {% endfor %}
+  </div>
+  </div>
+  </div>
+
+  {% include 'includes/pagination.njk' %}
+{% endblock %}

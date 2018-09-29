@@ -1,0 +1,8 @@
+{% if  site.tags.length > 0 %}
+	<div class="pond-card white">
+	  <div class="pond-card-title">标签</div>
+	  <div class="pond-card-content tag-card">
+	    	{{ list_tags({separator: '  ', show_count: false}) | safe }}
+	  </div>
+	</div>
+{% endif %}

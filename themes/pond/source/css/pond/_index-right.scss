@@ -1,0 +1,32 @@
+.category-list-count {
+    float: right;
+}
+.category-list {
+    color: #756969;
+    .category-list-item {
+        broder-bottom: 1px dashed rgba(160, 160, 160, 0.2);
+    }
+    li{
+        padding-bottom: .15rem;
+    }
+    a {
+        color: inherit;
+    }
+    a:hover {
+        color: #000000;
+    }
+}
+
+
+.tag-list {
+    color: #756969;
+    li{
+        padding-bottom: .15rem;
+    }
+    a {
+        color: inherit;
+    }
+    a:hover {
+        color: #000000;
+    }
+}

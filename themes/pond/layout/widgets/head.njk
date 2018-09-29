@@ -1,0 +1,56 @@
+{% set pageTitle = page.title or config.subtitle or '' %}
+
+{% if is_archive() %}
+  {% set pageTitle = 'Archives' %}
+{% endif %}
+
+{% if is_tag() %}
+  {% set pageTitle = 'Tag: ' + page.tag %}
+{% endif %}
+
+{% if is_category() %}
+  {% set pageTitle = 'Category: ' + page.category %}
+{% endif %}
+
+{% if is_month() %}
+  {% set pageTitle = pageTitle + ': ' + page.month + '/' + page.year %}
+{% endif %}
+
+{% if is_year() %}
+  {% set pageTitle = pageTitle + ': ' + page.year %}
+{% endif %}
+
+{% if pageTitle %}
+  {% set pageTitle = pageTitle + ' | ' + config.title  %}
+{% else %}
+  {% set pageTitle =  config.title  %}
+{% endif %}
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>{{ pageTitle }}</title>
+  {% if config.author %}
+    <meta name="author" content="{{ config.author }}">
+  {% endif %}
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% elif config.description %}
+    <meta name="description" content="{{ config.description }}">
+  {% elif page.excerpt %}
+  {% elif page.content %}
+  {% else %}
+  {% endif %}
+
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+  {% endif %}
+
+  {% if theme.stylesheets !== undefined and theme.stylesheets.length > 0 %}
+    {# stylesheet list from config.yml #}
+    {% for url in theme.stylesheets %}
+      <link rel="stylesheet" href="{{ url }}" media="screen,projection">
+    {% endfor %}
+  {% endif %}
+</head>

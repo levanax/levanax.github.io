@@ -1,0 +1,37 @@
+
+{% if  page.total > 0  %}
+<div>
+  <ul class="pagination white-text">
+    {% if page.prev_link %}
+          <li><a href="{{ url_for(page.prev_link) }}" title="{{ __('pre_page') }}"><i class="material-icons white-text">chevron_left</i></a></li>
+          {% elif page.prev and page.prev.path %}
+          <li><a href="{{ url_for(page.prev.path) }}" title="{{ __('pre_page') }}"><i class="material-icons white-text">chevron_left</i></a></li>
+          {% elif page.prev == 1 %}
+          <li><a href="/" title="{{ __('pre_page') }}"><i class="material-icons white-text">chevron_left</i></a></li>
+          {% else %}
+          <li class="disabled"><a><i class="material-icons">chevron_left</i></a></li>
+      {% endif %}
+
+
+
+      {% if page.current and page.total %}
+          <li><a class="white-text">{{ __('pagination_pageCode', page.current, page.total) }}</a></li>
+        {% endif %}
+
+    {# <li class="active"><a href="#!">1</a></li>
+    <li class="waves-effect"><a href="#!">2</a></li>
+    <li class="waves-effect"><a href="#!">3</a></li>
+    <li class="waves-effect"><a href="#!">4</a></li>
+    <li class="waves-effect"><a href="#!">5</a></li> #}
+
+    {% if page.next_link %}
+        <li class="waves-effect"><a title="{{ __('next_page') }}" href="{{ url_for(page.next_link) }}"><i class="material-icons white-text">chevron_right</i></a></li>
+        {% elif page.next and page.next.path %}
+        <li class="waves-effect"><a title="{{ __('next_page') }}" href="{{ url_for(page.next.path) }}"><i class="material-icons white-text">chevron_right</i></a></li>
+        {% else %}
+          <li class="disabled"><a><i class="material-icons">chevron_right</i></a></li>
+    {% endif %}
+
+  </ul>
+</div>
+{% endif %}

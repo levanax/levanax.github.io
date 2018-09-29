@@ -1,0 +1,13 @@
+.pond-card{
+  box-shadow: 1px 1px 1px #888888;
+  padding: 1rem .8rem;
+  margin: .5rem 0 1rem 0;
+  border-radius:5px;
+  border-top: 1px solid rgba(160, 160, 160, 0.64);
+  border-left: 1px solid rgba(160, 160, 160, 0.64);
+
+  .pond-card-title{
+  	font-size: 1.15rem;
+  	border-bottom: 1px dashed rgba(160, 160, 160, 0.2);
+  }
+}
