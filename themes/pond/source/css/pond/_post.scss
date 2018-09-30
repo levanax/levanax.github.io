@@ -1,106 +1,108 @@
-.toc-wrapper{
-    ol{
-        padding-right: 1rem;
-    }
+.toc-wrapper {
+  ol {
+    padding-right: 1rem;
+  }
 }
 
 .post {
-    padding: 5px .6rem;
-    margin-top: 5px;
-    box-shadow: 1px 1px 1px #888888;
-    border-top: 1px solid rgba(160, 160, 160, 0.64);
-    border-left: 1px solid rgba(160, 160, 160, 0.64);
-    border-radius: 5px;
+  padding: 5px 0.6rem;
+  margin-top: 5px;
+  box-shadow: 1px 1px 1px #888888;
+  border-top: 1px solid rgba(160, 160, 160, 0.64);
+  border-left: 1px solid rgba(160, 160, 160, 0.64);
+  border-radius: 5px;
 }
 
-.post-page-right {
-    // border-left: 1px solid #ccc;
+.post-toc-right {
+  // border-left: 1px solid #ccc;
+  right: 0 !important;
+  a {
+    overflow-wrap: break-word;
+  }
 }
 
 .post-data {
-    padding-left: .7rem;
-    color: #999;
-    i{
-        
-      vertical-align: middle;
-    }
-    a {
-        color: inherit;
-    }
-    li:hover {
-      color: #7a7a7a;
-    }
+  padding-left: 0.7rem;
+  color: #999;
+  i {
+    vertical-align: middle;
+  }
+  a {
+    color: inherit;
+  }
+  li:hover {
+    color: #7a7a7a;
+  }
 }
 
-
-.post-data ul {}
+.post-data ul {
+}
 
 .post-data ul li {
-    float: left;
-    margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 .post-data ul li span {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
 .post-excerpt {
-    border-top: 1px solid rgba(160, 160, 160, 0.2);
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
 }
-
 
 //----------------------------------------------------------
 //post 页面
 .post-title {
-    i{
-      vertical-align: middle;
-      color: #999;
-    }
+  i {
+    vertical-align: middle;
+    color: #999;
+  }
 }
 
 .post-content {
-    border-top: 1px solid rgba(160, 160, 160, 0.2);
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
 }
 
 //post 页面 end----------------------------------------------------------
 div.toc-wrapper {
-    padding: .5rem;
-    margin-top: 5px;
-    border-radius: 5px;
-    >ol {
-        padding-left: 0em;
+  padding: 0.5rem;
+  margin-top: 5px;
+  border-radius: 5px;
+  > ol {
+    padding-left: 0em;
+  }
+  ol {
+    list-style-type: none;
+    background-color: inherit;
+    li {
+      a:before {
+        content: 'bookmark_border';
+        color: green;
+        vertical-align: middle;
+        text-align: center;
+        margin-top: -5px;
+        text-rendering: optimizeLegibility;
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px; /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+      }
     }
-    ol {
-        list-style-type: none;
-        background-color: inherit;
-        li{
-            a:before{
-                content: 'bookmark_border';
-                color: green;
-                vertical-align: middle;
-                text-align: center;
-                margin-top: -5px;
-                text-rendering: optimizeLegibility;
-                font-family: 'Material Icons';
-                font-weight: normal;
-                font-style: normal;
-                font-size: 24px;  /* Preferred icon size */
-                display: inline-block;
-                line-height: 1;
-                text-transform: none;
-                letter-spacing: normal;
-                word-wrap: normal;
-                white-space: nowrap;
-                direction: ltr;
-                /* Support for all WebKit browsers. */
-                -webkit-font-smoothing: antialiased;
-                /* Support for Safari and Chrome. */
-                text-rendering: optimizeLegibility;
-                /* Support for Firefox. */
-                -moz-osx-font-smoothing: grayscale;
-                /* Support for IE. */
-                font-feature-settings: 'liga';
-            }
-        }
-    }
+  }
 }
