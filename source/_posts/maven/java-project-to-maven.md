@@ -11,7 +11,7 @@ keywords: maven
 
 <!--more -->
 java手动转 maven项目 ，右击项目 maven ->> update maven project -->> bug1:  
-![error info](/assets/maven/error1.png "bug1 img")  
+![error info](error1.png "bug1 img")  
 ref:https://stackoverflow.com/questions/10838109/eclipse-build-path-nesting-errors/15411137
 原因是：pom.xml
 ```

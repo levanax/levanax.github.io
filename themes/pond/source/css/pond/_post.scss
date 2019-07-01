@@ -16,6 +16,9 @@
 .post-toc-right {
   // border-left: 1px solid #ccc;
   right: 0 !important;
+  ol {
+    padding-left: 1rem;
+  }
   a {
     overflow-wrap: break-word;
   }

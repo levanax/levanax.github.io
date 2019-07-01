@@ -1,13 +1,13 @@
 ---
 layout: post  
 title:  "Linux常用命令"  
-date:   2018-05-21 12:40:29  
+date:   2019-05-15 16:43:52
 categories: Levan update  
 tags: Linux
 keywords: Linux常用命令  
 ---
 
-```
+```cmd
 $ls -l 
  - 简写为ll -查看目录下文件
 
@@ -18,7 +18,7 @@ $less file
 ```
 
 正则表达式搜索文件:
-```
+```cmd
 $egrep -i -a1 'loadWithdrawalacc[a-zA-Z -]+0324'  2goportal.log
  -i 忽略大小写
  -b1 匹配前一行
@@ -26,4 +26,16 @@ $egrep -i -a1 'loadWithdrawalacc[a-zA-Z -]+0324'  2goportal.log
 
 ```
 
+```cmd
+su  #进入root权限
+exit #退出su 进入的root权限
+su test #切换用户为 test
+
+```
+
+### 编辑  
+```cmd
+vi /test.txt
+:%s/aaa/bbb/g  #批量替换 aaa 为 bbb
+```
 <!--more -->
