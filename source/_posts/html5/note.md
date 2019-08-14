@@ -70,3 +70,44 @@ export function fileDownload(params) {
 }
 ```
 <!--more -->
+
+## 跨域问题
+如跨域在Chrome正常，火狐浏览器提示  
+firefox with reason: CORS header 'Access-Control-Allow-Origin' does not match 'http://localhost:4200, *').  
+则应检查 火狐浏览器是否有安装 cors 相关插件  
+参考链接：firefox with reason: CORS header 'Access-Control-Allow-Origin' does not match 'http://localhost:4200, *').  
+
+
+## IE 站点图标无法切换问题
+参考链接：https://stackoverflow.com/questions/29404559/how-to-force-ie11-to-request-a-new-favicon
+html
+```html
+<link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+```
+javascript
+```javascript
+// Chrome allows you to simply tweak the HREF of the LINK tag.
+// Firefox appears to require that you remove it and readd it.
+function setFavicon(url)
+{
+    removeFavicon();
+    var link=document.createElement('link');
+    link.type='image/x-icon';
+    link.rel='icon';
+    link.href=url;
+    document.getElementsByTagName('head')[0].appendChild(link);
+    if (window.console) console.log("Set FavIcon URL to " + getFavicon().href);
+ }
+
+function removeFavicon()
+{
+    var links=document.getElementsByTagName('link');
+    var head=document.getElementsByTagName('head')[0];
+    for(var i=0; i<links.length; i++)
+    {
+        if(links[i].getAttribute('rel')==='icon'){
+             head.removeChild(links[i])
+        }         
+    }      
+}
+```
