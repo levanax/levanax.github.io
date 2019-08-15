@@ -24,7 +24,8 @@ if($domain = "test") {}
 if ($domain = "test") {}
 ```
 
-解决方法： 在 if 后面添加一个空格，另外注意，如果是字符串需要 双引号包起来。
+解决方法： 在 if 后面添加一个空格，另外注意，如果是字符串需要 双引号包起来。  
+*if 不赞成使用，具体请参考：https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/#why-this-happens-and-still-not-fixed
 
 
 <!--more -->
