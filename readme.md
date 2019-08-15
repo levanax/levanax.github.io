@@ -1,9 +1,9 @@
 2018 年 5 月 8 日  
  update post
 
-技术列表：
-https://mozilla.github.io/nunjucks/cn/templating.html
-https://hexo.io/zh-cn/docs/generating
+技术列表：  
+https://mozilla.github.io/nunjucks/cn/templating.html  
+https://hexo.io/zh-cn/docs/generating  
 
 ```cmd
 我们强烈建议所有的git仓库都有一个README, LICENSE, .gitignore文件
