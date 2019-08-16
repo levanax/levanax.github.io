@@ -1,3 +1,11 @@
+# note
+
+打包命令：  
+hexo generate  
+
+自动部署命令：  
+hexo deploy
+
 2018 年 5 月 8 日  
  update post
 
