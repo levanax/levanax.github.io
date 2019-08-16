@@ -6,7 +6,7 @@
 
   function loadBackground() {
     //取0 几率小
-    var imgList = ['FringeFireworks_1920x1080.jpg', 'FringeFireworks_1920x1080.jpg', 'FishingWarehouses_1920x1080.jpg', 'Kolonihavehus_1920x1080.jpg']
+    var imgList = ['bgr_1.jpg']
     var load_img_i = 0
     if (imgList.length > 1) {
       load_img_i = Math.ceil(Math.random() * imgList.length - 1)
