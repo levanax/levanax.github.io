@@ -1,5 +1,7 @@
 # note
 
+> nodejs version 9+  
+
 打包命令：  
 hexo generate  
 

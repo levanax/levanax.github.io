@@ -7,7 +7,6 @@ tags: "AES加密"
 keywords:  AES  java-Cipher javascript-CryptoJS  
 ---
 
-# web 密码加密传输
 
 ## html javascript
 
@@ -34,6 +33,7 @@ function Encrypt(word) {
     return result;
 }
 ```
+
 <!--more -->
 
 ## java
@@ -168,6 +168,8 @@ public class AesEncodeUtil {
 	}
 }
 ```
+
 ## 参考 
+
 https://blog.csdn.net/u010648555/article/details/68066629  
 https://www.jianshu.com/p/a47477e8126a

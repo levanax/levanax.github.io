@@ -7,6 +7,10 @@ tags: Linux
 keywords: Linux常用命令  
 ---
 
+## 查找
+
+### 简单查找
+
 ```cmd
 $ls -l 
  - 简写为ll -查看目录下文件
@@ -20,7 +24,8 @@ N 跳至上一个匹配位置
 
 ```
 
-正则表达式搜索文件:
+### 正则表达式搜索文件
+
 ```cmd
 $egrep -i -a1 'loadWithdrawalacc[a-zA-Z -]+0324'  2goportal.log
  -i 忽略大小写
@@ -36,9 +41,16 @@ su test #切换用户为 test
 
 ```
 
-### 编辑  
+## 编辑  
+
 ```cmd
 vi /test.txt
 :%s/aaa/bbb/g  #批量替换 aaa 为 bbb
 ```
 <!--more -->
+
+## 比较文件内容
+
+```cmd
+diff a.txt b.txt
+```
