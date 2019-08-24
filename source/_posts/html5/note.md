@@ -133,11 +133,10 @@ function get_normalized_char(b) {
     if (RESERVED_CHAR_SET.indexOf(c) !== -1) {
       result.set(c, c)
     } else {
+      // 转16进制
       let temp = i.toString(16).toUpperCase()
-      if (temp.length === 1) {
-        temp = '0' + temp
-      }
-      result.set(c, '%' + temp)
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
+      result.set(c, '%' + temp.padStart(2, '0'))
     }
   }
   return result
