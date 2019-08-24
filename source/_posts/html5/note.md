@@ -2,8 +2,12 @@
 layout: post
 title: html5 & javascript 笔记
 date: 2019-05-14 10:53:16
-categories: Levan update
-tags: html5 javascript
+categories: 
+  - Levan update
+  - Web
+tags:
+  - 'html5'
+  - 'javascript日志'
 keywords: html5 javascript
 ---
 
@@ -109,5 +113,51 @@ function removeFavicon()
              head.removeChild(links[i])
         }         
     }      
+}
+```
+
+## JavaScript编码
+
+```javascript
+let RESERVED_CHAR_SET =
+  'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-.~_'
+
+function get_normalized_char(b) {
+  let result = new Map()
+  for (let i = 0; i < 256; i++) {
+    // 转ASCII码，跟java， Char temp =  (char)i ; 一样
+    let c = String.fromCharCode(i)
+    if (!b && c === '/') {
+      continue
+    }
+    if (RESERVED_CHAR_SET.indexOf(c) !== -1) {
+      result.set(c, c)
+    } else {
+      let temp = i.toString(16).toUpperCase()
+      if (temp.length === 1) {
+        temp = '0' + temp
+      }
+      result.set(c, '%' + temp)
+    }
+  }
+  return result
+}
+
+window.encodString = function(path, b) {
+  let length = path.length
+  let result = ''
+  let encode_f = get_normalized_char(b)
+
+  for (let i = 0; i < length; i++) {
+    if (path.charAt(i) === '/' && !b) {
+      result += '/'
+    }
+    let c = encode_f.get(path.charAt(i))
+    if (!c) {
+      continue
+    }
+    result += c
+  }
+  return result
 }
 ```
