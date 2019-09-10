@@ -160,3 +160,30 @@ window.encodString = function(path, b) {
   return result
 }
 ```
+
+## 获取指定时区时间（中国）
+
+```javascript
+// 获取北京时间，毫秒数
+// https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/parse
+Date.parse(new Date().toLocaleString("en", {timeZone: "Asia/Shanghai", timeZoneName: 'short'}))
+
+// e.g.
+var aestTime = new Date().toLocaleString("en-US", {timeZone: "Australia/Brisbane"});
+aestTime = new Date(aestTime);
+console.log('AEST time: '+aestTime.toLocaleString())
+
+var asiaTime = new Date().toLocaleString("en-US", {timeZone: "Asia/Shanghai"});
+asiaTime = new Date(asiaTime);
+console.log('Asia time: '+asiaTime.toLocaleString())
+
+var usaTime = new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
+usaTime = new Date(usaTime);
+console.log('USA time: '+usaTime.toLocaleString())
+
+var indiaTime = new Date().toLocaleString("en-US", {timeZone: "Asia/Kolkata"});
+indiaTime = new Date(indiaTime);
+console.log('India time: '+indiaTime.toLocaleString())
+```
+
+> 参考资料：https://stackoverflow.com/questions/10087819/convert-date-to-another-timezone-in-javascript  

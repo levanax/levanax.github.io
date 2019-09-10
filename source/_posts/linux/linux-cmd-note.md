@@ -7,9 +7,11 @@ tags: Linux
 keywords: Linux常用命令  
 ---
 
-## 查找
+## 常用命令
 
-### 简单查找
+### 查找
+
+#### 简单查找
 
 ```cmd
 $ls -l 
@@ -24,7 +26,7 @@ N 跳至上一个匹配位置
 
 ```
 
-### 正则表达式搜索文件
+#### 正则表达式搜索文件
 
 ```cmd
 $egrep -i -a1 'loadWithdrawalacc[a-zA-Z -]+0324'  2goportal.log
@@ -41,7 +43,7 @@ su test #切换用户为 test
 
 ```
 
-## 编辑  
+### 编辑  
 
 ```cmd
 vi /test.txt
@@ -49,8 +51,19 @@ vi /test.txt
 ```
 <!--more -->
 
-## 比较文件内容
+### 比较文件内容
 
 ```cmd
 diff a.txt b.txt
+```
+
+## 笔记
+
+### root密码
+
+![eg img](/assets/linux/linux-sudo-root-password-cmd.png)
+
+```cmd
+// 新系统还没有root 账户, 使用下面命令创建root 密码
+$sudo passwd root
 ```
