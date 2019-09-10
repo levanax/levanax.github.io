@@ -28,3 +28,5 @@ npm ERR! Could not install from "..\..\..\Roaming\npm\node_modules\cordova\node_
 > 前段时间更新了 nodejs 版本大升级，一直使用 cnpm 安装相关包，使用未同步升级的 cnpm 安装cordova，然后使用 cordova create app 命令时就会报错  
 解决方法
 > 使用 npm 安装 cordova, 即可正常创建
+
+<!--more -->
