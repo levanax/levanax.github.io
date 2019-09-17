@@ -10,8 +10,6 @@ tags:
 keywords: Cordova Plugin  
 ---
 
-背景：
-
 [参考资料](https://juejin.im/post/5b3888bfe51d455885771005)
 
 <!--more -->

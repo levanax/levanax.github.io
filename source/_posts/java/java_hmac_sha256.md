@@ -10,9 +10,7 @@ tags:
 keywords: Java HmacSHA256  
 ---
 
-## Hmac SHA256加密
-
-> 适用 Java / Android
+## 适用 Java / Android
 
 ```java
 import javax.crypto.Mac;
