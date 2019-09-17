@@ -187,3 +187,14 @@ console.log('India time: '+indiaTime.toLocaleString())
 ```
 
 > 参考资料：https://stackoverflow.com/questions/10087819/convert-date-to-another-timezone-in-javascript  
+
+## http response
+
+[参考资料](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Cache-Control)
+
+```nginx
+  # 设置缓存
+  expires 1d;
+  add_header Pragma private;
+  add_header Cache-Control "private,no-cache";
+```
