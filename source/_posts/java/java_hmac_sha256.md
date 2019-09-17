@@ -52,3 +52,5 @@ import javax.crypto.spec.SecretKeySpec;
 ```
 
 <!--more -->
+
+[更多参考](https://www.jokecamp.com/blog/examples-of-creating-base64-hashes-using-hmac-sha256-in-different-languages/)

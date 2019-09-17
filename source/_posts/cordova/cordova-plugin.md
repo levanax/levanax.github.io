@@ -16,6 +16,8 @@ keywords: Cordova Plugin
 
 <!--more -->
 
+## 命令创建初始化插件
+
 ```cmd
 # 安装用于 开发cordova plugin 的工具， https://github.com/apache/cordova-plugman#readme
 npm install -g plugman
@@ -51,6 +53,38 @@ npm init
 ```
 
 ```cmd
-plugman create --name cordova-plugin-signature-check --plugin_id top.xuebiao.signature_check --plugin_version 0.0.1
+plugman create --name CordovaPluginSignatureCheck --plugin_id top.xuebiao.signature_check --plugin_version 0.0.1
+
+```
+
+## 编写源代码
+
+> 在 android 开发工具上开发，然后移植到 cordova 插件内，注意package 引入。
+
+## 定义config > preference
+
+### 插件内 plugin.xml
+
+```xml
+<config-file parent="/*" target="res/xml/config.xml">
+  <preference name="TEST" value="test"/>
+  ...
+</config-file>
+```
+
+### java 中使用 preference
+
+```java
+// preferences 为父类：CordovaPlugin 的成员变量，
+preferences.getString("TEST", null);
+```
+
+### callbackContext.success 响应json
+
+```java
+import org.json.JSONObject;
+
+JSONObject callBackResult = new JSONObject();
+callBackResult.put("pass", true);
 
 ```
