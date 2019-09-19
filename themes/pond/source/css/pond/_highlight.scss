@@ -22,7 +22,12 @@
   }
 }
 figure.highlight{
-  a {
+  table {
+    tr{
+      th,td{
+        border:inherit;
+      }
+    }
   }
 }
 figure.highlight {
