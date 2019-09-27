@@ -188,7 +188,7 @@ indiaTime = new Date(indiaTime);
 console.log('India time: '+indiaTime.toLocaleString())
 ```
 
-> 参考资料：https://stackoverflow.com/questions/10087819/convert-date-to-another-timezone-in-javascript  
+> 参考资料：[click me](https://stackoverflow.com/questions/10087819/convert-date-to-another-timezone-in-javascript)  
 
 ## http response
 
@@ -200,3 +200,8 @@ console.log('India time: '+indiaTime.toLocaleString())
   add_header Pragma private;
   add_header Cache-Control "private,no-cache";
 ```
+
+## 谷歌Chrome 浏览器 禁用安全机制
+
+[click me](https://github.com/zhongxia245/blog/issues/28)  
+ --disable-web-security --user-data-dir
