@@ -14,7 +14,7 @@ keywords: VUE
 打包时用于引入CND的方案  
 [webpack-cdn-plugin](https://github.com/shirotech/webpack-cdn-plugin)
 
-## build时使用CDN遇到的问题1
+## build时使用CDN遇到的问题1 - config.plugin
 
 https://github.com/staven630/vue-cli3-config  
 
@@ -28,6 +28,7 @@ https://github.com/staven630/vue-cli3-config
 
 由于使用vue pages配置，按照以上方式使用CDN时，build出错
 
+> vue inspect --plugins // 使用该命令查看 plugin list
 
 ```javascript
     config.plugin('html-admin').tap(args => {
