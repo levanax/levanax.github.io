@@ -1,5 +1,7 @@
 # note
 
+## 自述
+
 > nodejs version 9+  
 
 打包命令：  
@@ -41,3 +43,13 @@ cd existing_git_repo
 git remote add origin https://gitee.com/Levana_1_levana_xue/levan-blog.git
 git push -u origin master
 ```
+
+## 日志分类
+
+> Levan update
+> Android
+> Cordova
+> Java
+> Linux
+> Note
+> Web

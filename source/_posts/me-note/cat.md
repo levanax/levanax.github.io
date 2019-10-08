@@ -4,7 +4,7 @@ title:  "练车科目二笔记"
 date:   2018-06-01
 categories: 
     - Levan update  
-    - Live
+    - Note
 ---
 
 ```post
