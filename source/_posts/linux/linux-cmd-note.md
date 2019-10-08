@@ -2,8 +2,10 @@
 layout: post  
 title:  "Linux常用命令"  
 date:   2019-05-15 16:43:52
-categories: Levan update  
-tags: Linux
+categories: 
+    - Levan update
+    - Linux
+tags: Linux常用命令
 keywords: Linux常用命令  
 ---
 
