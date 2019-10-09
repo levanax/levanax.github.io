@@ -41,4 +41,31 @@ https://github.com/staven630/vue-cli3-config
 
 <!--more -->
 
-...
+## vue-cli3 分割第三方依赖包
+
+```javascript
+const callConfigureWebpack = config => {
+  config.optimization = {
+    splitChunks: {
+      cacheGroups: {
+        // async单独打一个包
+        async: {
+          name: 'async',
+          test: /[\\/]node_modules[\\/]async[\\/]/,
+          chunks: 'all',
+          priority: 1,
+          reuseExistingChunk: true,
+          enforce: true
+        }
+      }
+    }
+  }
+  return config
+}
+
+module.exports = {
+  callConfigureWebpack: callConfigureWebpack
+}
+```
+
+参考资料:[点我](https://suyi123.com/2018/11/01/vue-cli-3-%E5%A4%9A%E9%A1%B5%E5%BA%94%E7%94%A8%E4%B8%8E%E5%88%86%E5%8C%85/)
