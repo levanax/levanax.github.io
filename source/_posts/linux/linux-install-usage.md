@@ -16,6 +16,27 @@ keywords: Linux
 
 由于 Linux系统版本较多，我选择的是 [ubuntu](https://ubuntu.com/download)
 
+## 问题
+
+---
+
+### linux apt-get 无法获得锁
+
+> 使用 apt-get 安装 yum 时报错：无法获得锁，如下图
+
+![eg img](/assets/linux/linux-error1.png)
+
+```cmd
+rm -rf  /var/cache/apt/archives/lock
+rm -rf  /var/lib/dpkg/lock
+```
+
+参考资料：[点我](https://blog.csdn.net/legendaryhaha/article/details/89361120)
+
+---
+
 <!--more -->
+
+## yum install docker -y 没有已启用的仓库
 
 ...
