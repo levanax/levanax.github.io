@@ -11,6 +11,10 @@ tags:
 keywords: html5 javascript
 ---
 
+## JavaScript设计模式
+
+资料：[gitbook书籍资源1](https://natee.gitbooks.io/javascript-design-patterns/content/chain-of-responsibility-pattern.html)
+
 ## 素材库
 
 图标素材库：[阿里图标库](https://www.iconfont.cn)  
@@ -164,6 +168,20 @@ window.encodString = function(path, b) {
 ```
 
 ## 获取指定时区时间（中国）
+
+### 方案1,兼容IE，chrome
+
+```javscript
+var timezone = 8; //目标时区时间，东八区
+var offset_GMT = new Date().getTimezoneOffset(); // 本地时间和格林威治的时间差，单位为分钟
+var nowDate = new Date().getTime(); // 本地时间距 1970 年 1 月 1 日午夜（GMT 时间）之间的毫秒数
+var targetDate = new Date(nowDate + offset_GMT * 60 * 1000 + timezone * 60 * 60 * 1000);
+console.log("东8区现在是：" + targetDate);
+```
+
+参考链接：[点这里](https://blog.csdn.net/u012193330/article/details/79637660)
+
+### 方案2，不兼容IE
 
 ```javascript
 // 获取北京时间，毫秒数
