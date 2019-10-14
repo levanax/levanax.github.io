@@ -43,7 +43,11 @@ rm -rf  /var/lib/dpkg/lock
 
 ---
 
-```
-```
+## 安装 docker
+
+参考资料：  
+
+1. [资料1](https://philipzheng.gitbooks.io/docker_practice/content/install/ubuntu.html)  
+2. [资料2](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)
 
 ...
