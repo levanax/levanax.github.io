@@ -10,6 +10,8 @@ tags:
 keywords: Git Note  
 ---
 
+[Git Gui dowload](https://git-scm.com/downloads/guis/)
+
 ## 问题
 
 ---

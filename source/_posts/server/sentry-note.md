@@ -9,6 +9,9 @@ tags:
     - Sentry
 keywords: Sentry  
 ---
+## 指南
+
+[Sentry安装指南](https://docs.sentry.io/server/installation/docker/)
 
 ## Sentry 教程
 

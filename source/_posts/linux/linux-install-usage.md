@@ -43,11 +43,26 @@ rm -rf  /var/lib/dpkg/lock
 
 ---
 
-## 安装 docker
+## docker
+
+### 安装
 
 参考资料：  
 
 1. [资料1](https://philipzheng.gitbooks.io/docker_practice/content/install/ubuntu.html)  
 2. [资料2](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)
 
+### 使用
+
+```cmd
+# su 获得root权限后
+systemctl start docker --启用服务
+docker info -- 查看docker信息
+```
+
+## git版本管理工具
+
+### Git-Extensions
+
+https://github.com/gitextensions/gitextensions/wiki/How-To:-run-Git-Extensions-on-Linux
 ...
