@@ -18,6 +18,8 @@ keywords: Linux
 
 ## 说明
 
+阿里云镜像 [https://opsx.alibaba.com/mirror](https://opsx.alibaba.com/mirror)
+
 ---
 
 ### 命令行符号 “\”
@@ -68,6 +70,14 @@ rm -rf  /var/lib/dpkg/lock
 
 1. [资料1](https://philipzheng.gitbooks.io/docker_practice/content/install/ubuntu.html)  
 2. [资料2](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)
+
+#### sources.list格式有误
+
+![linux/linux-source-list-error-20191022191756](/assets/linux/linux-source-list-error-20191022191756.png)
+
+#### sources.list镜像修改
+
+![linux/linux-source-list2019-10-22-191655](/assets/linux/linux-source-list2019-10-22-191655.png)
 
 ### 使用
 
