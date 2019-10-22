@@ -16,6 +16,21 @@ keywords: Linux
 
 由于 Linux系统版本较多，我选择的是 [ubuntu](https://ubuntu.com/download)
 
+## 说明
+
+---
+
+### 命令行符号 “\”
+
+![linux-cmd-desc1.png](/assets/linux/linux-cmd-desc1.png)
+
+> 以"\"结尾 （如上图）
+> 该符号是告知命令窗口，该命令还没有输入完成，换行继续输入。常用于 cmd 命令过长时使用
+
+---
+
+<!--more -->
+
 ## 问题
 
 ---
@@ -34,8 +49,6 @@ rm -rf  /var/lib/dpkg/lock
 参考资料：[点我](https://blog.csdn.net/legendaryhaha/article/details/89361120)
 
 ---
-
-<!--more -->
 
 ### yum install docker -y 没有已启用的仓库
 
