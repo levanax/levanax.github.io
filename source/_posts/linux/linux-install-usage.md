@@ -87,9 +87,16 @@ systemctl start docker --启用服务
 docker info -- 查看docker信息
 ```
 
+---
+
 ## git版本管理工具
+
+### 安装git
+
+资料：[戳我](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ### Git-Extensions
 
-https://github.com/gitextensions/gitextensions/wiki/How-To:-run-Git-Extensions-on-Linux
+资料：[戳我](https://github.com/gitextensions/gitextensions/wiki/How-To:-run-Git-Extensions-on-Linux)
+
 ...
