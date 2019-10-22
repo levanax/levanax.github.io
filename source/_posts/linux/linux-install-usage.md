@@ -37,9 +37,13 @@ rm -rf  /var/lib/dpkg/lock
 
 <!--more -->
 
-## yum install docker -y 没有已启用的仓库
+### yum install docker -y 没有已启用的仓库
 
 > yum 是linux 的包管理器，由于 ubuntu linux使用的包管理器是 apt / apt-get，所以若要使用需要按提示来操作
+
+### 安装 docker, gpg密钥时问题
+
+![linux/linux-install-docker-error1](/assets/linux/linux-install-docker-error1.png)
 
 ---
 
