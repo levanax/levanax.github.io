@@ -69,3 +69,4 @@ module.exports = {
 ```
 
 参考资料:[点我](https://suyi123.com/2018/11/01/vue-cli-3-%E5%A4%9A%E9%A1%B5%E5%BA%94%E7%94%A8%E4%B8%8E%E5%88%86%E5%8C%85/)
+https://github.com/staven630/vue-cli3-config
