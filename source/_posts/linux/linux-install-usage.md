@@ -87,6 +87,28 @@ systemctl start docker --启用服务
 docker info -- 查看docker信息
 ```
 
+## docker-compose
+
+> Compose 定位是“定义和运行多个 Docker 容器的应用”
+> 例如要实现一个 Web 项目，除了 Web 服务容器本身，往往还需要再加上后端的数据库服务容器，甚至还包括前端的负载均衡容器等
+
+### install
+
+> *需先安装 python
+
+![linux/20191027160118](/assets/linux/20191027160118.png)
+![linux/20191027160022](/assets/linux/20191027160022.png)
+
+```cmd
+
+$sudo apt install python-pip
+
+// -U 平滑升级，当前版本稳定升级，第一次安装时，把 -U 移除
+$sudo pip install -U docker-compose
+
+
+```
+
 ---
 
 ## git版本管理工具
