@@ -219,7 +219,33 @@ console.log('India time: '+indiaTime.toLocaleString())
   add_header Cache-Control "private,no-cache";
 ```
 
+---
+
 ## 谷歌Chrome 浏览器 禁用安全机制
 
 [click me](https://github.com/zhongxia245/blog/issues/28)  
  --disable-web-security --user-data-dir
+
+## 谷歌浏览器缓存变化情况
+
+![20191105101451.png](/assets/2019-11/20191105101451.png)
+第一次打开页面时，从服务器下载
+
+![20191105101611.png](/assets/2019-11/20191105101611.png)
+退出浏览器后（关闭所有标签页），再次打开时，看到 Size列说明是：读取disk cache
+
+![20191105101623.png](/assets/2019-11/20191105101623.png)
+不关闭浏览器，刷新时，说明 memory cache（因为js文件已经加载进内存
+
+---
+
+## 浏览器使用缓存时，与服务端文件比对的两个关键属性
+
+last Modify  
+文件一共有两个时间：创建时间 与 最后修改时间(Last modify)  
+复制文件时，只会改变创建时间，最后修改时间不会改变  
+
+E-TAG  
+相当于文件的指纹，如文件未发生变更，E-TAG 不会发生改变  
+
+---
