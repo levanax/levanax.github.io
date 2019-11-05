@@ -235,7 +235,9 @@ console.log('India time: '+indiaTime.toLocaleString())
 退出浏览器后（关闭所有标签页），再次打开时，看到 Size列说明是：读取disk cache
 
 ![20191105101623.png](/assets/2019-11/20191105101623.png)
-不关闭浏览器，刷新时，说明 memory cache（因为js文件已经加载进内存
+不关闭浏览器，刷新时，说明 memory cache（因为js文件已经加载进内存  
+
+*prefetch cache，是html5 缓存标签，表示该文件在浏览器空闲时，预先加载该文件
 
 ---
 
