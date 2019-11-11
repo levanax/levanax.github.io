@@ -22,6 +22,16 @@ keywords: Linux
 
 ---
 
+### root 账号
+
+> 新安装的 linux ubuntu 系统是没有root密码的，需要设定后使用
+
+```cmd
+$sudo passwd root
+```
+
+---
+
 ### 命令行符号 “\”
 
 ![linux-cmd-desc1.png](/assets/linux/linux-cmd-desc1.png)
