@@ -30,6 +30,13 @@ keywords: Linux
 $sudo passwd root
 ```
 
+### IP查看
+
+```cmd
+//如果未安装需要安装
+$ifconfig
+```
+
 ---
 
 ### 命令行符号 “\”
