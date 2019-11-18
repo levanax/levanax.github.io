@@ -10,7 +10,7 @@ keywords: nginx
 配置：  
 https://www.nginx.com/resources/wiki/start/topics/examples/full/#  
 
-### 问题1
+### ng config 使用if出错导致无法正常启动
 
 ```conf
 
@@ -53,5 +53,29 @@ location ^~/cdn/ {
     root   test;
 }
 ```
+
+---
+
+### nginx配置代理
+
+```config
+http {
+    upstream mobile_dev_server {
+       server 127.0.0.1:8085;
+       keepalive 2000;
+   }
+    server {
+        listen       8282;
+        server_name  localhost;
+
+        location ^~/mobile {
+          proxy_pass http://mobile_dev_server/mobile;
+          proxy_set_header Host $host:$server_port;
+        }
+    }
+}
+```
+
+> 127.0.0.1:8282/mobile 跳转至 127.0.0.1:8085/mobile
 
 ---
