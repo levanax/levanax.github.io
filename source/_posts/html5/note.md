@@ -11,6 +11,18 @@ tags:
 keywords: html5 javascript
 ---
 
+## HTML5
+
+### input
+
+```html
+<!--- 不被html5后规范采纳的，仅用于解决Iphone 输入框，弹出数字键盘，却又可以在代码中加入逗号用作格式化 --->
+<input placeholder="test" id="test" inputmode="decimal" />
+
+<!--- html5 新特性，安卓手机 弹出键盘是可以有小数点的 --->
+<input placeholder="test2" id="test2" pattern="[0-9]*" />
+```
+
 ## JavaScript设计模式
 
 资料：[gitbook书籍资源1](https://natee.gitbooks.io/javascript-design-patterns/content/chain-of-responsibility-pattern.html)
