@@ -26,6 +26,8 @@ keywords: Linux
 
 > 新安装的 linux ubuntu 系统是没有root密码的，需要设定后使用
 
+![eg img](/assets/linux/linux-sudo-root-password-cmd.png)
+
 ```cmd
 $sudo passwd root
 ```
@@ -87,6 +89,7 @@ rm -rf  /var/lib/dpkg/lock
 
 1. [资料1](https://philipzheng.gitbooks.io/docker_practice/content/install/ubuntu.html)  
 2. [资料2](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)
+3. [图书《docker 从入门到实践》](https://yeasy.gitbooks.io/docker_practice/introduction/)
 
 #### sources.list格式有误
 

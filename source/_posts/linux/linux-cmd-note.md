@@ -65,14 +65,3 @@ vi /test.txt
 ```cmd
 diff a.txt b.txt
 ```
-
-## 笔记
-
-### root密码
-
-![eg img](/assets/linux/linux-sudo-root-password-cmd.png)
-
-```cmd
-// 新系统还没有root 账户, 使用下面命令创建root 密码
-$sudo passwd root
-```
