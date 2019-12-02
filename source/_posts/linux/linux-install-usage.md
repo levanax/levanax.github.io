@@ -32,6 +32,19 @@ keywords: Linux
 $sudo passwd root
 ```
 
+---
+
+### 文件夹/文件权限修改
+
+[参考](https://blog.csdn.net/bmbm546/article/details/6875972)
+
+```cmd
+#把文件夹改为可读写
+chmod -R 777 [dirName]
+```
+
+---
+
 ### IP查看
 
 ```cmd
@@ -90,6 +103,7 @@ rm -rf  /var/lib/dpkg/lock
 1. [资料1](https://philipzheng.gitbooks.io/docker_practice/content/install/ubuntu.html)  
 2. [资料2](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)
 3. [图书《docker 从入门到实践》](https://yeasy.gitbooks.io/docker_practice/introduction/)
+4. [commandline document](https://docs.docker.com/engine/reference/commandline)
 
 #### sources.list格式有误
 
@@ -106,6 +120,24 @@ rm -rf  /var/lib/dpkg/lock
 systemctl start docker --启用服务
 docker info -- 查看docker信息
 ```
+
+```cmd
+$docker container run --name my-nginx -v /host/path/nginx.conf:/etc/nginx/nginx.conf:ro /
+> -d nginx nginx-debug -g'daemon off;'
+
+//https://docs.docker.com/engine/reference/commandline/container_run/
+
+--detach , -d		Run container in background and print container ID
+--volume , -v		Bind mount a volume 数据卷
+* -v 一个容器可挂载多个数据卷
+*e.g.  -v  /var/levana/nginx/nginx.conf:/etc/nginx/nginx.conf 
+*          /var/levana/nginx/nginx.conf 系统磁盘路径文件
+*          /etc/nginx/nginx.conf docker 容器内映射路径文件
+
+
+```
+
+---
 
 ## docker-compose
 
