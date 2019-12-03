@@ -23,6 +23,16 @@ keywords: html5 javascript
 <input placeholder="test2" id="test2" pattern="[0-9]*" />
 ```
 
+---
+
+### form表单内 button type=submit
+
+> 注： form表单没有 action 属性，点击 submit同样会触发form 提交方式，URL为当前地址栏URL
+>
+> 解决方式，点击submit button 时，使用 e.preventDefault(); 阻止默认的from表单提交方式
+
+---
+
 ## JavaScript设计模式
 
 资料：[gitbook书籍资源1](https://natee.gitbooks.io/javascript-design-patterns/content/chain-of-responsibility-pattern.html)
