@@ -30,3 +30,15 @@ npm ERR! Could not install from "..\..\..\Roaming\npm\node_modules\cordova\node_
 > 使用 npm 安装 cordova, 即可正常创建
 
 <!--more -->
+
+---
+
+### jpg 改 png
+
+> app 内图标需png类型，但客户给出jpg，因此需要改为png
+> 直接更改后缀为png
+> 1.cordova Android 无法打包
+> 2.cordova ios 可以正常打包，但是无法通过apple 审核上架
+> 解决：需从程序方面转为png类型后正常
+
+---

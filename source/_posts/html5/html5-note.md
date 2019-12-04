@@ -27,9 +27,18 @@ keywords: html5 javascript
 
 ### form表单内 button type=submit
 
-> 注： form表单没有 action 属性，点击 submit同样会触发form 提交方式，URL为当前地址栏URL
->
-> 解决方式，点击submit button 时，使用 e.preventDefault(); 阻止默认的from表单提交方式
+```html
+<form>
+  <input type="text" name="username">
+  <input type="submit" onclick="login">
+</form>
+```
+
+> 预期：以上代码结构，我想在 点击 submit button 时，在click login 方法内以ajax方式请求后端
+> *不能以改结构方式处理，因为form input submit 都与style相关联*
+> 问题：实际结果始终不如预期
+> 原因： form表单虽然没有 action 属性，点击 submit同样会触发form 提交方式，action为当前地址栏URL
+> 解决：点击submit button 时，使用 e.preventDefault(); 阻止默认的from表单提交方式
 
 ---
 
