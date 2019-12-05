@@ -79,3 +79,23 @@ http {
 > 127.0.0.1:8282/mobile 跳转至 127.0.0.1:8085/mobile
 
 ---
+
+### nginx挂载目录浏览
+
+```conf
+	server {
+        listen       4445;
+        server_name  localhost;
+
+        #charset koi8-r;
+        charset utf-8;
+		location / {
+            root D:/Levana.Xue/Mobile-App-APK-Code-Backup; #指定实际目录绝对路径
+            autoindex on;                        #开启目录浏览功能
+            autoindex_exact_size off;            #关闭详细文件大小统计，让文件大小显示MB，GB单位，默认为b
+            autoindex_localtime on;              #开启以服务器本地时区显示文件修改日期!
+        }
+    }
+```
+
+---
