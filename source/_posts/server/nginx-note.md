@@ -102,12 +102,16 @@ http {
 
 ### window10下nginx操作命令
 
+http://nginx.org/en/docs/windows.html
+
 ```cmd
 # 执行以下命令需在nginx目录下（与nginx.exe 同级） 执行
 
 $nginx -s reload #重载nginx cnfig
 
 $start nginx #启动nginx
+
+$nginx -s stop 停止运行nginx
 ```
 
 ---
