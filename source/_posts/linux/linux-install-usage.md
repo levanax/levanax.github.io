@@ -121,19 +121,28 @@ systemctl start docker --启用服务
 docker info -- 查看docker信息
 ```
 
+#### docker使用nginx
+
 ```cmd
-$docker container run --name my-nginx -v /host/path/nginx.conf:/etc/nginx/nginx.conf:ro /
-> -d nginx nginx-debug -g'daemon off;'
+#cmd 指南
+#https://docs.docker.com/engine/reference/commandline/container_run/
 
-//https://docs.docker.com/engine/reference/commandline/container_run/
+#/etc/nginx/nginx.conf - include /etc/nginx/conf.d/*.conf
 
---detach , -d		Run container in background and print container ID
---volume , -v		Bind mount a volume 数据卷
+#/etc/nginx/conf.d/    - nginx 默认配置文件夹
+
+$docker container run --name my-nginx \
+   -v /var/levana/nginx/conf.d/:/etc/nginx/conf.d/ \
+   -v /var/levana/nginx/html/:/etc/nginx/html/ \
+   -p 8585:8585 \
+   -d nginx
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--detach , -d	Run container in background and print container ID
+--volume , -v	Bind mount a volume 数据卷
 * -v 一个容器可挂载多个数据卷
-*e.g.  -v  /var/levana/nginx/nginx.conf:/etc/nginx/nginx.conf 
-*          /var/levana/nginx/nginx.conf 系统磁盘路径文件
-*          /etc/nginx/nginx.conf docker 容器内映射路径文件
-
+*e.g.  -v  /var/levana/nginx/html/:/etc/nginx/html/
+*          /var/levana/nginx/html/ -  系统磁盘路径文件
+*          /etc/nginx/html/        -  docker容器内映射路径文件
 
 ```
 

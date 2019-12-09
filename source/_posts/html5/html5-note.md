@@ -13,6 +13,10 @@ keywords: html5 javascript
 
 ## HTML5
 
+https://developer.mozilla.org/zh-CN/docs/Web/HTML  
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference  
+https://developer.mozilla.org/zh-CN/docs/Web/HTTP
+
 ### input
 
 ```html
