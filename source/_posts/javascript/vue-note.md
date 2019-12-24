@@ -70,3 +70,44 @@ module.exports = {
 
 参考资料:[点我](https://suyi123.com/2018/11/01/vue-cli-3-%E5%A4%9A%E9%A1%B5%E5%BA%94%E7%94%A8%E4%B8%8E%E5%88%86%E5%8C%85/)
 https://github.com/staven630/vue-cli3-config
+
+## vs code setting
+
+```javascript
+"settings": {
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "eslint.options": {
+    "extensions": [".js", ".vue"]
+  }, //去掉代码结尾的分号
+  "prettier.singleQuote": true, //使用带引号替代双引号
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "always",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false, //让函数(名)和后面的括号之间加个空格
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-aligned"
+    },
+    "prettier": {
+      "semi": false,
+      "singleQuote": true,
+      "printWidth": 80,
+      "proseWrap": "always"
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
+```

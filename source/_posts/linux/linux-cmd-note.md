@@ -65,3 +65,9 @@ vi /test.txt
 ```cmd
 diff a.txt b.txt
 ```
+
+### 文件下载
+
+```cmd
+rsync -avc Administrator@192.168.2.122:/cygdrive/d/Log/$1_goxml/$2_GoXML_*_$3_*.tgz /home/goxml/temp/
+```
