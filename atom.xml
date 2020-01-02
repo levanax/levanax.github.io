@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://levanax.github.io/"/>
-  <updated>2019-10-14T12:10:24.420Z</updated>
+  <updated>2020-01-02T06:22:57.328Z</updated>
   <id>https://levanax.github.io/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://levanax.github.io/2019/10/14/IDE/git-note/"/>
     <id>https://levanax.github.io/2019/10/14/IDE/git-note/</id>
     <published>2019-10-14T01:48:24.000Z</published>
-    <updated>2019-10-14T12:10:24.420Z</updated>
+    <updated>2020-01-02T06:22:57.328Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;https://git-scm.com/downloads/guis/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git Gui dowload&lt;/a&gt;&lt;/p&gt;&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;hr&gt;&lt;h3 id=&quot;安装git-desktop后，在cmd-使用git-命令，提示不是一个命令&quot;&gt;&lt;a href=&quot;#安装git-desktop后，在cmd-使用git-命令，提示不是一个命令&quot; class=&quot;headerlink&quot; title=&quot;安装git desktop后，在cmd 使用git 命令，提示不是一个命令&quot;&gt;&lt;/a&gt;安装git desktop后，在cmd 使用git 命令，提示不是一个命令&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;在 C:\Users\[username]\AppData\Local\GitHubDesktop\app-2.2.1\resources\app\git\cmd&lt;br&gt;*注意username 是win系统登入名称(Win10)&lt;br&gt;找到以上path, 添加至系统环境变量&lt;/p&gt;&lt;/blockquote&gt;&lt;hr&gt;
+      &lt;p&gt;&lt;a href=&quot;https://git-scm.com/downloads/guis/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git Gui dowload&lt;/a&gt;&lt;/p&gt;&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;hr&gt;&lt;h3 id=&quot;安装git-desktop后，在cmd-使用git-命令，提示不是一个命令&quot;&gt;&lt;a href=&quot;#安装git-desktop后，在cmd-使用git-命令，提示不是一个命令&quot; class=&quot;headerlink&quot; title=&quot;安装git desktop后，在cmd 使用git 命令，提示不是一个命令&quot;&gt;&lt;/a&gt;安装git desktop后，在cmd 使用git 命令，提示不是一个命令&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;在 C:\Users\[username]\AppData\Local\GitHubDesktop\app-2.2.1\resources\app\git\cmd&lt;br&gt;*注意username 是win系统登入名称(Win10)&lt;br&gt;找到以上path, 添加至系统环境变量&lt;/p&gt;&lt;/blockquote&gt;
     
     </summary>
     

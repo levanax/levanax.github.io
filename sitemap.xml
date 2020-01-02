@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://levanax.github.io/2019/10/14/IDE/git-note/</loc>
+    
+    <lastmod>2020-01-02T06:22:57.328Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://levanax.github.io/2019/10/09/system-runing-exception-manager/sentry-note/</loc>
     
     <lastmod>2020-01-02T02:35:15.343Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>https://levanax.github.io/2019/09/10/cordova/cordova-note/</loc>
     
     <lastmod>2019-12-04T02:13:23.103Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://levanax.github.io/2019/10/14/IDE/git-note/</loc>
-    
-    <lastmod>2019-10-14T12:10:24.420Z</lastmod>
     
   </url>
   
