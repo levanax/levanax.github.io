@@ -2,8 +2,10 @@
 layout: post  
 title:  "node 笔记"  
 date:   2018-05-18 12:59:49 
-categories: Levan update  
-tags: node  
+categories: 
+    - Levan update  
+    - Node
+tags: npm  
 keywords: node笔记
 ---
 

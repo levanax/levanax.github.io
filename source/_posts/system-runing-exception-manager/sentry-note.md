@@ -4,7 +4,7 @@ title:  "Sentry note"
 date:   2019-10-09 13:58:09
 categories: 
     - Levan update
-    - Web
+    - System Runing Exception Manager
 tags: 
     - Sentry
 keywords: Sentry  
@@ -38,6 +38,7 @@ $sentry-cli releases -o levan-b9 -p vuedemo new test@1.0.0
 #-o levan-b9   -o 组织名称
 #-p vuedemo 项目名称
 #test@1.0.0    Sentry.init({ release 版本标记})
+```
 
 ```cmd
 #sentry-cli releases -o 组织 -p 项目 files test@1.0.0 upload-sourcemaps js文件所在目录 --url-prefix 线上资源URI
@@ -49,4 +50,6 @@ $sentry-cli releases -o levan-b9 -p vuedemo files test@1.0.0 upload-sourcemaps  
 #-p vuedemo, 项目名称
 # D:/Levana.Xue/develop-tool/nginx-1.14.0/app-esop/web/js, JS文件路径
 #--url-prefix ~/web/js/ ,用户使用的网址，js文件前缀路径，~ 表示对应相对路径
+```
+
 ...
