@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>塘主Levan</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://levanax.github.io/"/>
+  <updated>2019-10-14T12:10:24.420Z</updated>
+  <id>https://levanax.github.io/</id>
+  
+  <author>
+    <name>Levan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git 笔记</title>
+    <link href="https://levanax.github.io/2019/10/14/IDE/git-note/"/>
+    <id>https://levanax.github.io/2019/10/14/IDE/git-note/</id>
+    <published>2019-10-14T01:48:24.000Z</published>
+    <updated>2019-10-14T12:10:24.420Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://git-scm.com/downloads/guis/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git Gui dowload&lt;/a&gt;&lt;/p&gt;&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;hr&gt;&lt;h3 id=&quot;安装git-desktop后，在cmd-使用git-命令，提示不是一个命令&quot;&gt;&lt;a href=&quot;#安装git-desktop后，在cmd-使用git-命令，提示不是一个命令&quot; class=&quot;headerlink&quot; title=&quot;安装git desktop后，在cmd 使用git 命令，提示不是一个命令&quot;&gt;&lt;/a&gt;安装git desktop后，在cmd 使用git 命令，提示不是一个命令&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;在 C:\Users\[username]\AppData\Local\GitHubDesktop\app-2.2.1\resources\app\git\cmd&lt;br&gt;*注意username 是win系统登入名称(Win10)&lt;br&gt;找到以上path, 添加至系统环境变量&lt;/p&gt;&lt;/blockquote&gt;&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="开发工具" scheme="https://levanax.github.io/categories/Levan-update/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Git Note" scheme="https://levanax.github.io/tags/Git-Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sentry note</title>
+    <link href="https://levanax.github.io/2019/10/09/system-runing-exception-manager/sentry-note/"/>
+    <id>https://levanax.github.io/2019/10/09/system-runing-exception-manager/sentry-note/</id>
+    <published>2019-10-09T05:58:09.000Z</published>
+    <updated>2020-01-02T02:35:15.343Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;指南&quot;&gt;&lt;a href=&quot;#指南&quot; class=&quot;headerlink&quot; title=&quot;指南&quot;&gt;&lt;/a&gt;指南&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://docs.sentry.io/server/installation/docker/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Sentry安装指南&lt;/a&gt;&lt;/p&gt;&lt;h2 id=&quot;Sentry-教程&quot;&gt;&lt;a href=&quot;#Sentry-教程&quot; class=&quot;headerlink&quot; title=&quot;Sentry 教程&quot;&gt;&lt;/a&gt;Sentry 教程&lt;/h2&gt;&lt;p&gt;参考资料：&lt;br&gt;&lt;a href=&quot;https://juejin.im/post/5b55c33ae51d45198f5c7a91&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Sentry 安装部署教程&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://juejin.im/post/5cc2b8b9e51d456e40377319&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Sentry vue 结合使用教程&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="System Runing Exception Manager" scheme="https://levanax.github.io/categories/Levan-update/System-Runing-Exception-Manager/"/>
+    
+    
+      <category term="Sentry" scheme="https://levanax.github.io/tags/Sentry/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 安装以及使用</title>
+    <link href="https://levanax.github.io/2019/10/08/linux/linux-install-usage/"/>
+    <id>https://levanax.github.io/2019/10/08/linux/linux-install-usage/</id>
+    <published>2019-10-08T10:43:15.000Z</published>
+    <updated>2019-12-09T11:22:24.566Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;下载-Linux系统&quot;&gt;&lt;a href=&quot;#下载-Linux系统&quot; class=&quot;headerlink&quot; title=&quot;下载 Linux系统&quot;&gt;&lt;/a&gt;下载 Linux系统&lt;/h2&gt;&lt;p&gt;下载请点击：&lt;a href=&quot;https://www.linux.org/pages/download/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;&lt;p&gt;由于 Linux系统版本较多，我选择的是 &lt;a href=&quot;https://ubuntu.com/download&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ubuntu&lt;/a&gt;&lt;/p&gt;&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;阿里云镜像 &lt;a href=&quot;https://opsx.alibaba.com/mirror&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://opsx.alibaba.com/mirror&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;h3 id=&quot;root-账号&quot;&gt;&lt;a href=&quot;#root-账号&quot; class=&quot;headerlink&quot; title=&quot;root 账号&quot;&gt;&lt;/a&gt;root 账号&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;新安装的 linux ubuntu 系统是没有root密码的，需要设定后使用&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;img src=&quot;/assets/linux/linux-sudo-root-password-cmd.png&quot; alt=&quot;eg img&quot;&gt;&lt;/p&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$sudo passwd root&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr&gt;&lt;h3 id=&quot;文件夹-文件权限修改&quot;&gt;&lt;a href=&quot;#文件夹-文件权限修改&quot; class=&quot;headerlink&quot; title=&quot;文件夹/文件权限修改&quot;&gt;&lt;/a&gt;文件夹/文件权限修改&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/bmbm546/article/details/6875972&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;参考&lt;/a&gt;&lt;/p&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#把文件夹改为可读写&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;chmod -R &lt;span class=&quot;number&quot;&gt;777&lt;/span&gt; [dirName]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr&gt;&lt;h3 id=&quot;IP查看&quot;&gt;&lt;a href=&quot;#IP查看&quot; class=&quot;headerlink&quot; title=&quot;IP查看&quot;&gt;&lt;/a&gt;IP查看&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;//如果未安装需要安装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ifconfig&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr&gt;&lt;h3 id=&quot;命令行符号-“-”&quot;&gt;&lt;a href=&quot;#命令行符号-“-”&quot; class=&quot;headerlink&quot; title=&quot;命令行符号 “\”&quot;&gt;&lt;/a&gt;命令行符号 “\”&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/linux/linux-cmd-desc1.png&quot; alt=&quot;linux-cmd-desc1.png&quot;&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;以”&amp;quot;结尾 （如上图）&lt;br&gt;该符号是告知命令窗口，该命令还没有输入完成，换行继续输入。常用于 cmd 命令过长时使用&lt;/p&gt;&lt;/blockquote&gt;&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Linux" scheme="https://levanax.github.io/categories/Levan-update/Linux/"/>
+    
+    
+      <category term="Linux安装以及使用" scheme="https://levanax.github.io/tags/Linux%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue 笔记</title>
+    <link href="https://levanax.github.io/2019/09/25/javascript/vue-note/"/>
+    <id>https://levanax.github.io/2019/09/25/javascript/vue-note/</id>
+    <published>2019-09-25T07:25:21.000Z</published>
+    <updated>2019-12-18T06:38:00.710Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;资源收集&quot;&gt;&lt;a href=&quot;#资源收集&quot; class=&quot;headerlink&quot; title=&quot;资源收集&quot;&gt;&lt;/a&gt;资源收集&lt;/h2&gt;&lt;p&gt;打包时用于引入CND的方案&lt;br&gt;&lt;a href=&quot;https://github.com/shirotech/webpack-cdn-plugin&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;webpack-cdn-plugin&lt;/a&gt;&lt;/p&gt;&lt;h2 id=&quot;build时使用CDN遇到的问题1-config-plugin&quot;&gt;&lt;a href=&quot;#build时使用CDN遇到的问题1-config-plugin&quot; class=&quot;headerlink&quot; title=&quot;build时使用CDN遇到的问题1 - config.plugin&quot;&gt;&lt;/a&gt;build时使用CDN遇到的问题1 - config.plugin&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/staven630/vue-cli3-config&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/staven630/vue-cli3-config&lt;/a&gt;&lt;/p&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;config.plugin(&lt;span class=&quot;string&quot;&gt;&#39;html&#39;&lt;/span&gt;).tap(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;params&quot;&gt;args&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  args[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;].cdn = cdn&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; args&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 报错: args[0] 没有定义&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;由于使用vue pages配置，按照以上方式使用CDN时，build出错&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;vue inspect –plugins // 使用该命令查看 plugin list&lt;/p&gt;&lt;/blockquote&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;config.plugin(&lt;span class=&quot;string&quot;&gt;&#39;html-admin&#39;&lt;/span&gt;).tap(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;params&quot;&gt;args&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  args[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;].cdn = cdn&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; args&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;使用以上代码替换即可解决，参考链接:&lt;a href=&quot;https://github.com/vuejs/vue-cli/issues/1729&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;click me&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="VUE" scheme="https://levanax.github.io/tags/VUE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java HmacSHA256加密</title>
+    <link href="https://levanax.github.io/2019/09/17/java/java_hmac_sha256/"/>
+    <id>https://levanax.github.io/2019/09/17/java/java_hmac_sha256/</id>
+    <published>2019-09-17T06:12:33.000Z</published>
+    <updated>2019-09-17T11:49:16.564Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;适用-Java-Android&quot;&gt;&lt;a href=&quot;#适用-Java-Android&quot; class=&quot;headerlink&quot; title=&quot;适用 Java / Android&quot;&gt;&lt;/a&gt;适用 Java / Android&lt;/h2&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; javax.crypto.Mac;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; javax.crypto.spec.SecretKeySpec;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// https://stackoverflow.com/questions/9655181/how-to-convert-a-byte-array-to-a-hex-string-in-java&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;char&lt;/span&gt;[] HEX_ARRAY = &lt;span class=&quot;string&quot;&gt;&quot;0123456789ABCDEF&quot;&lt;/span&gt;.toCharArray();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; String &lt;span class=&quot;title&quot;&gt;bytesToHex&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;byte&lt;/span&gt;[] bytes)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;char&lt;/span&gt;[] hexChars = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;char&lt;/span&gt;[bytes.length * &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; (&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; j = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; j &amp;lt; bytes.length; j++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; v = bytes[j] &amp;amp; &lt;span class=&quot;number&quot;&gt;0xFF&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            hexChars[j * &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;] = HEX_ARRAY[v &amp;gt;&amp;gt;&amp;gt; &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            hexChars[j * &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt; + &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;] = HEX_ARRAY[v &amp;amp; &lt;span class=&quot;number&quot;&gt;0x0F&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; String(hexChars);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;//https://stackoverflow.com/questions/7124735/hmac-sha256-algorithm-for-signature-calculation&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt; String &lt;span class=&quot;title&quot;&gt;HmacSHA256&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(String content, String salt)&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        String result = &lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;try&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            String secret = salt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            String message = content;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            Mac sha256_HMAC = Mac.getInstance(&lt;span class=&quot;string&quot;&gt;&quot;HmacSHA256&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            SecretKeySpec secret_key = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; SecretKeySpec(secret.getBytes(&lt;span class=&quot;string&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;), &lt;span class=&quot;string&quot;&gt;&quot;HmacSHA256&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            sha256_HMAC.init(secret_key);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;keyword&quot;&gt;byte&lt;/span&gt;[] temp = sha256_HMAC.doFinal(message.getBytes());&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            result = bytesToHex(temp);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;catch&lt;/span&gt; (Exception e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            System.out.println(&lt;span class=&quot;string&quot;&gt;&quot;Error&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; result;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Java" scheme="https://levanax.github.io/categories/Levan-update/Java/"/>
+    
+    
+      <category term="Java HmacSHA256" scheme="https://levanax.github.io/tags/Java-HmacSHA256/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cordova Plugin</title>
+    <link href="https://levanax.github.io/2019/09/16/cordova/cordova-plugin/"/>
+    <id>https://levanax.github.io/2019/09/16/cordova/cordova-plugin/</id>
+    <published>2019-09-16T07:46:22.000Z</published>
+    <updated>2019-09-17T11:51:15.418Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5b3888bfe51d455885771005&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;参考资料&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Cordova" scheme="https://levanax.github.io/categories/Levan-update/Cordova/"/>
+    
+    
+      <category term="Cordova Plugin" scheme="https://levanax.github.io/tags/Cordova-Plugin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android apk 防止篡改</title>
+    <link href="https://levanax.github.io/2019/09/12/android/android-security/"/>
+    <id>https://levanax.github.io/2019/09/12/android/android-security/</id>
+    <published>2019-09-12T02:46:55.000Z</published>
+    <updated>2019-09-12T09:13:44.175Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;背景：android版 app 被二次打包，功能可以正常使用，不法分子将恶意代码嵌入，导致数据不安全问题。&lt;/p&gt;&lt;p&gt;Cordova App 的主要源码为 assets文件夹 下HTML（资源文件）&lt;/p&gt;&lt;p&gt;所以我们需要的加密防止篡改只需要保护 和确认 assets文件夹未被修改过即可&lt;/p&gt;&lt;h2 id=&quot;assets-资源防篡改付费方案-2019-9-12&quot;&gt;&lt;a href=&quot;#assets-资源防篡改付费方案-2019-9-12&quot; class=&quot;headerlink&quot; title=&quot;assets 资源防篡改付费方案(2019-9-12)&quot;&gt;&lt;/a&gt;assets 资源防篡改付费方案(2019-9-12)&lt;/h2&gt;&lt;p&gt;腾讯乐固仅企业版支持,收费：&lt;/p&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;APP个数&lt;/th&gt;&lt;th align=&quot;right&quot;&gt;年&lt;/th&gt;&lt;th align=&quot;right&quot;&gt;价格&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&lt;/td&gt;&lt;td align=&quot;right&quot;&gt;1&lt;/td&gt;&lt;td align=&quot;right&quot;&gt;8w&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;360加固,收费：&lt;/p&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;APP个数&lt;/th&gt;&lt;th align=&quot;right&quot;&gt;年&lt;/th&gt;&lt;th align=&quot;right&quot;&gt;价格&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&lt;/td&gt;&lt;td align=&quot;right&quot;&gt;1&lt;/td&gt;&lt;td align=&quot;right&quot;&gt;1.8w (*现在是5折)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Android" scheme="https://levanax.github.io/categories/Levan-update/Android/"/>
+    
+    
+      <category term="Android Security" scheme="https://levanax.github.io/tags/Android-Security/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cordova 笔记</title>
+    <link href="https://levanax.github.io/2019/09/10/cordova/cordova-note/"/>
+    <id>https://levanax.github.io/2019/09/10/cordova/cordova-note/</id>
+    <published>2019-09-10T02:44:48.000Z</published>
+    <updated>2019-12-04T02:13:23.103Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;错误1&quot;&gt;&lt;a href=&quot;#错误1&quot; class=&quot;headerlink&quot; title=&quot;错误1&quot;&gt;&lt;/a&gt;错误1&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;使用 cordova create MyApp 命令时报以下错误：&lt;/p&gt;&lt;/blockquote&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;D:\&lt;span class=&quot;title&quot;&gt;Levana.Xue&lt;/span&gt;\&lt;span class=&quot;title&quot;&gt;temp&lt;/span&gt;&amp;gt;&lt;span class=&quot;title&quot;&gt;cordova&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;MyApp&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;Creating&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;cordova&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;project&lt;/span&gt;.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&amp;#123; &lt;span class=&quot;title&quot;&gt;Error&lt;/span&gt;: &lt;span class=&quot;title&quot;&gt;npm&lt;/span&gt;: &lt;span class=&quot;title&quot;&gt;Command&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;failed&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;exit&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;code&lt;/span&gt; 1 &lt;span class=&quot;title&quot;&gt;Error&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;output&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;ERR&lt;/span&gt;! &lt;span class=&quot;title&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;ENOLOCAL&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;ERR&lt;/span&gt;! &lt;span class=&quot;title&quot;&gt;Could&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;from&lt;/span&gt; &quot;..\..\..\&lt;span class=&quot;title&quot;&gt;Roaming&lt;/span&gt;\&lt;span class=&quot;title&quot;&gt;npm&lt;/span&gt;\&lt;span class=&quot;title&quot;&gt;node_modules&lt;/span&gt;\&lt;span class=&quot;title&quot;&gt;cordova&lt;/span&gt;\&lt;span class=&quot;title&quot;&gt;node_modules&lt;/span&gt;\&lt;span class=&quot;title&quot;&gt;_cordova&lt;/span&gt;-&lt;span class=&quot;title&quot;&gt;app&lt;/span&gt;-&lt;span class=&quot;title&quot;&gt;hello&lt;/span&gt;-&lt;span class=&quot;title&quot;&gt;world&lt;/span&gt;@4.0.0@&lt;span class=&quot;title&quot;&gt;cordova&lt;/span&gt;-&lt;span class=&quot;title&quot;&gt;app&lt;/span&gt;-&lt;span class=&quot;title&quot;&gt;hello&lt;/span&gt;-&lt;span class=&quot;title&quot;&gt;world&lt;/span&gt;\&lt;span class=&quot;title&quot;&gt;index.js&lt;/span&gt;&quot; &lt;span class=&quot;title&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;does&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;contain&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;package.json&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;file&lt;/span&gt;.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;原因：&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;前段时间更新了 nodejs 版本大升级，一直使用 cnpm 安装相关包，使用未同步升级的 cnpm 安装cordova，然后使用 cordova create app 命令时就会报错&lt;br&gt;解决方法&lt;br&gt;使用 npm 安装 cordova, 即可正常创建&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Cordova" scheme="https://levanax.github.io/categories/Levan-update/Cordova/"/>
+    
+    
+      <category term="Cordova Error Note" scheme="https://levanax.github.io/tags/Cordova-Error-Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>web 密码加密传输</title>
+    <link href="https://levanax.github.io/2019/08/16/java/java_Cipher_html_cryptoJs_AES/"/>
+    <id>https://levanax.github.io/2019/08/16/java/java_Cipher_html_cryptoJs_AES/</id>
+    <published>2019-08-16T06:53:28.000Z</published>
+    <updated>2019-08-24T00:27:45.429Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;html-javascript&quot;&gt;&lt;a href=&quot;#html-javascript&quot; class=&quot;headerlink&quot; title=&quot;html javascript&quot;&gt;&lt;/a&gt;html javascript&lt;/h2&gt;&lt;p&gt;引入：&lt;a href=&quot;https://github.com/brix/crypto-js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/brix/crypto-js&lt;/a&gt;&lt;/p&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; key = CryptoJS.enc.Utf8.parse(&lt;span class=&quot;string&quot;&gt;&quot;aabbccddeeffgghh&quot;&lt;/span&gt;);  &lt;span class=&quot;comment&quot;&gt;//十六位十六进制数作为密钥&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; iv = CryptoJS.enc.Utf8.parse(&lt;span class=&quot;string&quot;&gt;&#39;aabbccddeeffgghh&#39;&lt;/span&gt;);   &lt;span class=&quot;comment&quot;&gt;//十六位十六进制数作为密钥偏移量&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//解密方法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Decrypt&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;word&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; encryptedHexStr = CryptoJS.enc.Base64.parse(word);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; srcs = CryptoJS.enc.Base64.stringify(encryptedHexStr);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; decrypt = CryptoJS.AES.decrypt(srcs, key, &amp;#123; &lt;span class=&quot;attr&quot;&gt;iv&lt;/span&gt;: iv, &lt;span class=&quot;attr&quot;&gt;mode&lt;/span&gt;: CryptoJS.mode.CBC, &lt;span class=&quot;attr&quot;&gt;padding&lt;/span&gt;: CryptoJS.pad.Pkcs7 &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; decryptedStr = decrypt.toString(CryptoJS.enc.Utf8);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; decryptedStr.toString();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//加密方法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Encrypt&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;word&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; srcs = CryptoJS.enc.Utf8.parse(word);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; encrypted = CryptoJS.AES.encrypt(srcs, key, &amp;#123; &lt;span class=&quot;attr&quot;&gt;iv&lt;/span&gt;: iv, &lt;span class=&quot;attr&quot;&gt;mode&lt;/span&gt;: CryptoJS.mode.CBC, &lt;span class=&quot;attr&quot;&gt;padding&lt;/span&gt;: CryptoJS.pad.Pkcs7 &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; result = encrypted.toString();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; result;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Web" scheme="https://levanax.github.io/categories/Levan-update/Web/"/>
+    
+    
+      <category term="AES加密" scheme="https://levanax.github.io/tags/AES%E5%8A%A0%E5%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nginx 笔记</title>
+    <link href="https://levanax.github.io/2019/08/15/server/nginx-note/"/>
+    <id>https://levanax.github.io/2019/08/15/server/nginx-note/</id>
+    <published>2019-08-15T03:51:15.000Z</published>
+    <updated>2019-12-05T11:17:14.251Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;配置：&lt;br&gt;&lt;a href=&quot;https://www.nginx.com/resources/wiki/start/topics/examples/full/#&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.nginx.com/resources/wiki/start/topics/examples/full/#&lt;/a&gt;&lt;/p&gt;&lt;h3 id=&quot;ng-config-使用if出错导致无法正常启动&quot;&gt;&lt;a href=&quot;#ng-config-使用if出错导致无法正常启动&quot; class=&quot;headerlink&quot; title=&quot;ng config 使用if出错导致无法正常启动&quot;&gt;&lt;/a&gt;ng config 使用if出错导致无法正常启动&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;if($domain &amp;#x3D; &amp;quot;test&amp;quot;) &amp;#123;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;上面代码会报错 nginx unknown directive “if( ，导致无法启动&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;if ($domain &amp;#x3D; &amp;quot;test&amp;quot;) &amp;#123;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;解决方法： 在 if 后面添加一个空格，另外注意，如果是字符串需要 双引号包起来。&lt;br&gt;*if 不赞成使用，具体请参考：&lt;a href=&quot;https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/#why-this-happens-and-still-not-fixed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/#why-this-happens-and-still-not-fixed&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="nginx" scheme="https://levanax.github.io/tags/nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>https 单/双向认证</title>
+    <link href="https://levanax.github.io/2019/08/07/https/https/"/>
+    <id>https://levanax.github.io/2019/08/07/https/https/</id>
+    <published>2019-08-07T08:53:13.000Z</published>
+    <updated>2019-08-07T08:53:17.006Z</updated>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;生成服务端证书&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;keytool-genkey -v -alias server -keyalg RSA -storetype PKCS12 -keystore E:\&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;\server.key.p12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;导出证书公钥，安装到客户端&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;keytool-keystore E:\&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;\server.key.p12 -export -alias server -file E:\&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;\server.cer&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/weixin_41917987/article/details/80987835&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://blog.csdn.net/weixin_41917987/article/details/80987835&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="https" scheme="https://levanax.github.io/tags/https/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hyper-v 记录</title>
+    <link href="https://levanax.github.io/2019/05/23/vm/hyper-v/"/>
+    <id>https://levanax.github.io/2019/05/23/vm/hyper-v/</id>
+    <published>2019-05-23T02:31:31.000Z</published>
+    <updated>2019-05-23T02:32:28.891Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Hyper-v&quot;&gt;&lt;a href=&quot;#Hyper-v&quot; class=&quot;headerlink&quot; title=&quot;Hyper-v&quot;&gt;&lt;/a&gt;Hyper-v&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#关闭hyper-v&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;bcdedit &amp;#x2F;set hypervisorlaunchtype off。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#启用hyper-v&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;bcdedit &amp;#x2F;set hypervisorlaunchtype auto&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="Hyper-v" scheme="https://levanax.github.io/tags/Hyper-v/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cordova + vue 开发 Mobile app</title>
+    <link href="https://levanax.github.io/2019/05/16/cordova/corodva-vue-app/"/>
+    <id>https://levanax.github.io/2019/05/16/cordova/corodva-vue-app/</id>
+    <published>2019-05-16T08:04:24.000Z</published>
+    <updated>2019-05-16T08:14:19.340Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;技术框架&quot;&gt;&lt;a href=&quot;#技术框架&quot; class=&quot;headerlink&quot; title=&quot;技术框架&quot;&gt;&lt;/a&gt;技术框架&lt;/h1&gt;&lt;p&gt;cordova 9.0.0 (&lt;a href=&quot;mailto:cordova-lib@9.0.1&quot;&gt;cordova-lib@9.0.1&lt;/a&gt;)&lt;br&gt;vue-cli3 ,vue^2.6.10&lt;/p&gt;&lt;h2 id=&quot;遇到的问题记录&quot;&gt;&lt;a href=&quot;#遇到的问题记录&quot; class=&quot;headerlink&quot; title=&quot;遇到的问题记录&quot;&gt;&lt;/a&gt;遇到的问题记录&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;使用 vue build + cordova build android 后，在手机上运行，出现一片白屏后无反应&lt;br&gt;解决办法：&lt;br&gt;在 vue.config.js 增加配置项如下&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;baseUrl: &lt;span class=&quot;string&quot;&gt;&#39;android_asset/www/&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;&lt;/ol&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="vue cordova" scheme="https://levanax.github.io/tags/vue-cordova/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux常用命令</title>
+    <link href="https://levanax.github.io/2019/05/15/linux/linux-cmd-note/"/>
+    <id>https://levanax.github.io/2019/05/15/linux/linux-cmd-note/</id>
+    <published>2019-05-15T08:43:52.000Z</published>
+    <updated>2019-12-24T02:10:35.688Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h2&gt;&lt;h3 id=&quot;新建&quot;&gt;&lt;a href=&quot;#新建&quot; class=&quot;headerlink&quot; title=&quot;新建&quot;&gt;&lt;/a&gt;新建&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 在当前目录下新建 test 文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&lt;span class=&quot;built_in&quot;&gt;mkdir&lt;/span&gt; test&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;查找&quot;&gt;&lt;a href=&quot;#查找&quot; class=&quot;headerlink&quot; title=&quot;查找&quot;&gt;&lt;/a&gt;查找&lt;/h3&gt;&lt;h4 id=&quot;简单查找&quot;&gt;&lt;a href=&quot;#简单查找&quot; class=&quot;headerlink&quot; title=&quot;简单查找&quot;&gt;&lt;/a&gt;简单查找&lt;/h4&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ls -l &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; - 简写为ll -查看目录下文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$less file&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;? 向上查找&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/ 向下查找&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;n 使用查找后,跳到下个匹配位置&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;N 跳至上一个匹配位置&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&quot;正则表达式搜索文件&quot;&gt;&lt;a href=&quot;#正则表达式搜索文件&quot; class=&quot;headerlink&quot; title=&quot;正则表达式搜索文件&quot;&gt;&lt;/a&gt;正则表达式搜索文件&lt;/h4&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$egrep -i -a1 &#39;loadWithdrawalacc[a-zA-Z -]+&lt;span class=&quot;number&quot;&gt;0324&lt;/span&gt;&#39;  &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;goportal.log&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -i 忽略大小写&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -b1 匹配前一行&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -a1 包含被匹配后一行&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;su  #进入root权限&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;exit&lt;/span&gt; #退出su 进入的root权限&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;su test #切换用户为 test&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;编辑&quot;&gt;&lt;a href=&quot;#编辑&quot; class=&quot;headerlink&quot; title=&quot;编辑&quot;&gt;&lt;/a&gt;编辑&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;vi /test.txt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:%s/aaa/bbb/g  #批量替换 aaa 为 bbb&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Linux" scheme="https://levanax.github.io/categories/Levan-update/Linux/"/>
+    
+    
+      <category term="Linux常用命令" scheme="https://levanax.github.io/tags/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>html5 &amp; javascript 笔记</title>
+    <link href="https://levanax.github.io/2019/05/14/html5/html5-note/"/>
+    <id>https://levanax.github.io/2019/05/14/html5/html5-note/</id>
+    <published>2019-05-14T02:53:16.000Z</published>
+    <updated>2019-12-09T02:48:59.901Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;HTML5&quot;&gt;&lt;a href=&quot;#HTML5&quot; class=&quot;headerlink&quot; title=&quot;HTML5&quot;&gt;&lt;/a&gt;HTML5&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/HTML&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/HTML&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/HTTP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/HTTP&lt;/a&gt;&lt;/p&gt;&lt;h3 id=&quot;input&quot;&gt;&lt;a href=&quot;#input&quot; class=&quot;headerlink&quot; title=&quot;input&quot;&gt;&lt;/a&gt;input&lt;/h3&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!--- 不被html5后规范采纳的，仅用于解决Iphone 输入框，弹出数字键盘，却又可以在代码中加入逗号用作格式化 ---&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;placeholder&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;inputmode&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;decimal&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!--- html5 新特性，安卓手机 弹出键盘是可以有小数点的 ---&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;placeholder&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test2&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test2&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;pattern&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;[0-9]*&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr&gt;&lt;h3 id=&quot;form表单内-button-type-submit&quot;&gt;&lt;a href=&quot;#form表单内-button-type-submit&quot; class=&quot;headerlink&quot; title=&quot;form表单内 button type=submit&quot;&gt;&lt;/a&gt;form表单内 button type=submit&lt;/h3&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;form&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;name&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;username&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;submit&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;onclick&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;login&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;form&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;&lt;p&gt;预期：以上代码结构，我想在 点击 submit button 时，在click login 方法内以ajax方式请求后端&lt;br&gt;&lt;em&gt;不能以改结构方式处理，因为form input submit 都与style相关联&lt;/em&gt;&lt;br&gt;问题：实际结果始终不如预期&lt;br&gt;原因： form表单虽然没有 action 属性，点击 submit同样会触发form 提交方式，action为当前地址栏URL&lt;br&gt;解决：点击submit button 时，使用 e.preventDefault(); 阻止默认的from表单提交方式&lt;/p&gt;&lt;/blockquote&gt;&lt;hr&gt;&lt;h2 id=&quot;JavaScript设计模式&quot;&gt;&lt;a href=&quot;#JavaScript设计模式&quot; class=&quot;headerlink&quot; title=&quot;JavaScript设计模式&quot;&gt;&lt;/a&gt;JavaScript设计模式&lt;/h2&gt;&lt;p&gt;资料：&lt;a href=&quot;https://natee.gitbooks.io/javascript-design-patterns/content/chain-of-responsibility-pattern.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;gitbook书籍资源1&lt;/a&gt;&lt;/p&gt;&lt;h2 id=&quot;素材库&quot;&gt;&lt;a href=&quot;#素材库&quot; class=&quot;headerlink&quot; title=&quot;素材库&quot;&gt;&lt;/a&gt;素材库&lt;/h2&gt;&lt;p&gt;图标素材库：&lt;a href=&quot;https://www.iconfont.cn&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;阿里图标库&lt;/a&gt;&lt;/p&gt;&lt;h2 id=&quot;文件下载&quot;&gt;&lt;a href=&quot;#文件下载&quot; class=&quot;headerlink&quot; title=&quot;文件下载&quot;&gt;&lt;/a&gt;文件下载&lt;/h2&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; xhr = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; XMLHttpRequest();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;xhr.open(&lt;span class=&quot;string&quot;&gt;&#39;POST&#39;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;http://192.168.7.128:8080/download&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;xhr.onprogress = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;e&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (e.lengthComputable) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(e.loaded + &lt;span class=&quot;string&quot;&gt;&#39; / &#39;&lt;/span&gt; + e.total);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;xhr.onloadstart = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;e&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&#39;start&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;xhr.onloadend = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;e&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&#39;end&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;xhr.send(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  form: &lt;span class=&quot;built_in&quot;&gt;JSON&lt;/span&gt;.stringify(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    id: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;/**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt; * PC 文件下载&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt; * &lt;span class=&quot;doctag&quot;&gt;@param &lt;span class=&quot;type&quot;&gt;&amp;#123;Object&amp;#125;&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;params&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt; * &lt;span class=&quot;doctag&quot;&gt;@param &lt;span class=&quot;type&quot;&gt;&amp;#123;Blob&amp;#125;&lt;/span&gt; &lt;/span&gt;params.blob&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt; * &lt;span class=&quot;doctag&quot;&gt;@param &lt;span class=&quot;type&quot;&gt;&amp;#123;String&amp;#125;&lt;/span&gt; &lt;/span&gt;params.fileName&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt; */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;fileDownload&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;params&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; uA = &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.navigator.userAgent&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; isIE =&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    /msie\s|trident\/|edge\&lt;span class=&quot;comment&quot;&gt;//i.test(uA) &amp;amp;&amp;amp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    !!(&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;string&quot;&gt;&#39;uniqueID&#39;&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt; ||&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;string&quot;&gt;&#39;documentMode&#39;&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt; ||&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;string&quot;&gt;&#39;ActiveXObject&#39;&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt; ||&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;string&quot;&gt;&#39;MSInputMethodContext&#39;&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    )&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; isEdge = uA.indexOf(&lt;span class=&quot;string&quot;&gt;&#39;Edge&#39;&lt;/span&gt;) &amp;gt; &lt;span class=&quot;number&quot;&gt;-1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (isIE || isEdge) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    navigator.msSaveBlob(params.blob, params.fileName)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125; &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; url = &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.URL.createObjectURL(params.blob)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; link = &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.createElement(&lt;span class=&quot;string&quot;&gt;&#39;a&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    link.setAttribute(&lt;span class=&quot;string&quot;&gt;&#39;style&#39;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;display:none&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    link.setAttribute(&lt;span class=&quot;string&quot;&gt;&#39;id&#39;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;download&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    link.setAttribute(&lt;span class=&quot;string&quot;&gt;&#39;href&#39;&lt;/span&gt;, url)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    link.setAttribute(&lt;span class=&quot;string&quot;&gt;&#39;download&#39;&lt;/span&gt;, params.fileName)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.body.appendChild(link)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    link.click()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    link.addEventListener(&lt;span class=&quot;string&quot;&gt;&#39;click&#39;&lt;/span&gt;, &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      URL.revokeObjectURL(url)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.getElementById(&lt;span class=&quot;string&quot;&gt;&#39;download&#39;&lt;/span&gt;).remove()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Web" scheme="https://levanax.github.io/categories/Levan-update/Web/"/>
+    
+    
+      <category term="html5" scheme="https://levanax.github.io/tags/html5/"/>
+    
+      <category term="javascript日志" scheme="https://levanax.github.io/tags/javascript%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring boot+ mybatis + Spring security 集成</title>
+    <link href="https://levanax.github.io/2018/09/28/java/spring_boot_security/"/>
+    <id>https://levanax.github.io/2018/09/28/java/spring_boot_security/</id>
+    <published>2018-09-28T05:22:12.000Z</published>
+    <updated>2018-09-29T01:40:41.872Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Spring-boot-mybatis-Spring-security-集成&quot;&gt;&lt;a href=&quot;#Spring-boot-mybatis-Spring-security-集成&quot; class=&quot;headerlink&quot; title=&quot;Spring boot+ mybatis + Spring security 集成&quot;&gt;&lt;/a&gt;Spring boot+ mybatis + Spring security 集成&lt;/h1&gt;&lt;p&gt;项目使用 Maven 管理依赖&lt;/p&gt;&lt;h2 id=&quot;引入-Spring-Security-库&quot;&gt;&lt;a href=&quot;#引入-Spring-Security-库&quot; class=&quot;headerlink&quot; title=&quot;引入 Spring Security 库&quot;&gt;&lt;/a&gt;引入 Spring Security 库&lt;/h2&gt;&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;org.springframework.boot&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;spring-boot-starter-security&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;2.0.4.RELEASE&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;com.google.guava&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;guava&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;26.0-jre&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;org.apache.commons&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;commons-lang3&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;3.8&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="Spring" scheme="https://levanax.github.io/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tomcat</title>
+    <link href="https://levanax.github.io/2018/07/26/java/server/"/>
+    <id>https://levanax.github.io/2018/07/26/java/server/</id>
+    <published>2018-07-26T03:16:49.000Z</published>
+    <updated>2018-07-26T03:16:52.274Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Jul 26, 2018 11:01:02 AM org.apache.catalina.core.StandardContext startInternal&lt;br&gt;SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file&lt;br&gt;Jul 26, 2018 11:01:02 AM org.apache.catalina.core.StandardContext startInternal&lt;br&gt;SEVERE: Context [] startup failed due to previous errors&lt;br&gt;web exit …&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="tomcat" scheme="https://levanax.github.io/tags/tomcat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>visual studio emulator android note</title>
+    <link href="https://levanax.github.io/2018/07/25/android/visual-studio-emulator-for-android/"/>
+    <id>https://levanax.github.io/2018/07/25/android/visual-studio-emulator-for-android/</id>
+    <published>2018-07-25T13:50:25.000Z</published>
+    <updated>2018-07-25T13:57:34.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;官网：&lt;a href=&quot;https://visualstudio.microsoft.com/vs/msft-android-emulator/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://visualstudio.microsoft.com/vs/msft-android-emulator/&lt;/a&gt;&lt;/p&gt;&lt;h5 id=&quot;Android-模拟器与-Android-studio-连接调试&quot;&gt;&lt;a href=&quot;#Android-模拟器与-Android-studio-连接调试&quot; class=&quot;headerlink&quot; title=&quot;Android 模拟器与 Android studio 连接调试&quot;&gt;&lt;/a&gt;Android 模拟器与 Android studio 连接调试&lt;/h5&gt;&lt;p&gt;资料参考&lt;br&gt;中文：&lt;a href=&quot;https://blogs.msdn.microsoft.com/devops/2015/07/20/using-the-visual-studio-emulator-for-android-from-android-studio-or-eclipse-with-adt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://blogs.msdn.microsoft.com/devops/2015/07/20/using-the-visual-studio-emulator-for-android-from-android-studio-or-eclipse-with-adt/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;英文：&lt;a href=&quot;https://blog.csdn.net/SilenceOO/article/details/77518665&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://blog.csdn.net/SilenceOO/article/details/77518665&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Android模拟器无法联网：&lt;a href=&quot;https://blog.csdn.net/s562218/article/details/50375079&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://blog.csdn.net/s562218/article/details/50375079&lt;/a&gt;&lt;/p&gt;&lt;p&gt;遇到问题， SDK 23版本无法启动，其他都可以&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="android模拟器" scheme="https://levanax.github.io/tags/android%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>react-native note</title>
+    <link href="https://levanax.github.io/2018/07/25/android/react-native/"/>
+    <id>https://levanax.github.io/2018/07/25/android/react-native/</id>
+    <published>2018-07-25T13:50:12.000Z</published>
+    <updated>2018-10-12T06:44:36.192Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://facebook.github.io/react-native/docs/getting-started.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://facebook.github.io/react-native/docs/getting-started.html&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="hybird app" scheme="https://levanax.github.io/tags/hybird-app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>window IP access problem</title>
+    <link href="https://levanax.github.io/2018/07/23/dev-env/window/"/>
+    <id>https://levanax.github.io/2018/07/23/dev-env/window/</id>
+    <published>2018-07-23T04:09:16.000Z</published>
+    <updated>2018-07-25T14:11:16.005Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;&lt;li&gt;防火墙已经关闭的情况下，sencha 挂起的 server，局域网电脑不能以IP访问&lt;br&gt;打开 windows defender security Center -&amp;gt; Firewall &amp;amp; network protection&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;-&amp;gt; Allow an app through firewall -&amp;gt; change settings -&amp;gt; select sencha app [domain] ,solved&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="window" scheme="https://levanax.github.io/tags/window/"/>
+    
+  </entry>
+  
+</feed>
