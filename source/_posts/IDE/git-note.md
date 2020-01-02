@@ -22,8 +22,29 @@ keywords: Git Note
 > *注意username 是win系统登入名称(Win10)
 > 找到以上path, 添加至系统环境变量
 
+<!--more -->
+
 ---
 
-<!--more -->
+### git clone时，无法访问github地址
+
+#### 描述如下图
+
+![git20200102141650](/assets/2020-1-2/git20200102141650.png)
+由于近期公司网络做了调整限制，出现如上图错误
+
+#### 解决
+
+参考链接：https://github.com/desktop/desktop/issues/2452
+
+```cmd
+$git config --global http.sslVerify "false"
+```
+
+使用以上命令禁用安全验证即可（不知道这个是什么安全认证，但禁用后OK
+
+> 更新时间：2020-1-2
+
+---
 
 ...
