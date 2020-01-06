@@ -46,6 +46,15 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTTP
 
 ---
 
+## JavaScript 常用脚本记录
+
+### 去掉数字末尾的0
+
+```javascript
+// 去掉数字末尾的0
+"0.000100".match(/[-]?\d*(?:\d|[.]\d*[^0])/);
+```
+
 ## JavaScript设计模式
 
 资料：[gitbook书籍资源1](https://natee.gitbooks.io/javascript-design-patterns/content/chain-of-responsibility-pattern.html)
