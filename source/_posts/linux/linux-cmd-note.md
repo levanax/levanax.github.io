@@ -43,6 +43,11 @@ $egrep -i -a1 'loadWithdrawalacc[a-zA-Z -]+0324'  2goportal.log
  -b1 匹配前一行
  -a1 包含被匹配后一行
 
+egrep -i  'action.*K00660232'  2goportal.log > K00660232.log
+ -i 忽略大小写
+ * 匹配任意字符
+ > K00660232.log #意思是按前面的正则匹配出来的所有行，另存为一份文件（名称：K00660232.log）
+
 ```
 
 ```cmd
