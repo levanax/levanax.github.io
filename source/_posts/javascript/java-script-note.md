@@ -21,3 +21,10 @@ keywords: JavaScript 笔记
 <!--more -->
 
 ---
+
+### setTimeout() setInterval() 定时器问题 & 注意点
+
+![setTimeout-desc.png](/assets/2020-3-31/setTimeout-desc.png)
+![setInterval-desc.png](/assets/2020-3-31/setInterval-desc.png)
+
+---
