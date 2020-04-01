@@ -11,9 +11,9 @@ keywords:
     - Cordova Error Note  
 ---
 
-## 错误1
+## 遇到的问题列表
 
-> 使用 cordova create MyApp 命令时报以下错误：
+### 使用 cordova create MyApp 命令时报以下错误
 
 ```cmd
 D:\Levana.Xue\temp>cordova create MyApp
@@ -40,5 +40,17 @@ npm ERR! Could not install from "..\..\..\Roaming\npm\node_modules\cordova\node_
 > 1.cordova Android 无法打包
 > 2.cordova ios 可以正常打包，但是无法通过apple 审核上架
 > 解决：需从程序方面转为png类型后正常
+
+---
+
+### Cordova IOS input.focus() 无法弹出键盘
+
+参考: https://stackoverflow.com/questions/11843166/document-getelementbyidmycontrol-focus-not-working-in-phonegap?newreg=032c0e6c544b4e14a8d4b5d80cac1f7b  
+
+```xml
+# https://cordova.apache.org/docs/en/5.1.1/guide/platforms/ios/config.html
+<preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+# KeyboardDisplayRequiresUserAction（布尔值，默认为true）：设置为false允许在调用focus()表单输入时出现键盘
+```
 
 ---
