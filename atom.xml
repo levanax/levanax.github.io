@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://levanax.github.io/"/>
-  <updated>2021-01-16T08:29:52.230Z</updated>
+  <updated>2022-09-24T07:05:15.314Z</updated>
   <id>https://levanax.github.io/</id>
   
   <author>
@@ -15,6 +15,169 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>eclipse 笔记</title>
+    <link href="https://levanax.github.io/2022/09/24/IDE/eclipse/"/>
+    <id>https://levanax.github.io/2022/09/24/IDE/eclipse/</id>
+    <published>2022-09-24T06:55:59.000Z</published>
+    <updated>2022-09-24T07:05:15.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;build-fail&quot;&gt;&lt;a href=&quot;#build-fail&quot; class=&quot;headerlink&quot; title=&quot;build fail&quot;&gt;&lt;/a&gt;build fail&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/2022-9-24/eclipse-question-1.png&quot; alt=&quot;img&quot;&gt;&lt;br&gt;当java 项目 build 不成功时，delete 上述 error 即可&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="开发工具" scheme="https://levanax.github.io/categories/Levan-update/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="eclipse" scheme="https://levanax.github.io/tags/eclipse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XCode 笔记</title>
+    <link href="https://levanax.github.io/2022/09/24/IDE/xcode/"/>
+    <id>https://levanax.github.io/2022/09/24/IDE/xcode/</id>
+    <published>2022-09-24T06:55:59.000Z</published>
+    <updated>2022-09-24T06:56:17.836Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Open the Organizer window in Xcode (menu Window &amp;gt; Organizer)&lt;br&gt;Click on the Archives icon in the top middle&lt;br&gt;Select the desired archive by app name and date&lt;br&gt;Click Show in Finder in the context menu&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="开发工具" scheme="https://levanax.github.io/categories/Levan-update/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="XCode" scheme="https://levanax.github.io/tags/XCode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sonarqube</title>
+    <link href="https://levanax.github.io/2022/09/24/IDE/sonarqube/"/>
+    <id>https://levanax.github.io/2022/09/24/IDE/sonarqube/</id>
+    <published>2022-09-24T06:55:59.000Z</published>
+    <updated>2022-09-24T07:01:21.181Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;js-project&quot;&gt;&lt;a href=&quot;#js-project&quot; class=&quot;headerlink&quot; title=&quot;js project&quot;&gt;&lt;/a&gt;js project&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;进入项目文件夹根路径&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;安装依赖包：npm i sonarqube-scanner –save-dev&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;根路径下 新建 sonarqube-scanner.js 文件，文件内容如下：&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; scanner = &lt;span class=&quot;built_in&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;sonarqube-scanner&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;scanner(&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// sonarqube 服务的 URL&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    serverUrl: &lt;span class=&quot;string&quot;&gt;&#39;http://ip:9100&#39;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    token: &lt;span class=&quot;string&quot;&gt;&#39;XXXXXXXXXXXXXXXXXXXXXXX&#39;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    options: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;comment&quot;&gt;// 项目名称&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;string&quot;&gt;&#39;sonar.projectName&#39;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&#39;test2&#39;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;string&quot;&gt;&#39;sonar.projectDescription&#39;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&#39;test2&#39;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;comment&quot;&gt;// 需要扫描的项目文件路径, 注意，路径别写 ./src，会导致无法排除目录&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;string&quot;&gt;&#39;sonar.sources&#39;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&#39;src&#39;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;string&quot;&gt;&#39;sonar.exclusions&#39;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&#39;src/test/**&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  () =&amp;gt; process.exit()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&quot;4&quot;&gt;&lt;li&gt;执行命令：node sonarqube-scanner.js&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;参考资料：&lt;a href=&quot;https://javascript.plainenglish.io/how-to-set-up-sonarqube-locally-on-a-react-typescript-project-ec02cd8e2626&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://javascript.plainenglish.io/how-to-set-up-sonarqube-locally-on-a-react-typescript-project-ec02cd8e2626&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="开发工具" scheme="https://levanax.github.io/categories/Levan-update/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="sonarqube" scheme="https://levanax.github.io/tags/sonarqube/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Note] Android笔记</title>
+    <link href="https://levanax.github.io/2022/09/24/android/android-note/"/>
+    <id>https://levanax.github.io/2022/09/24/android/android-note/</id>
+    <published>2022-09-24T06:45:02.000Z</published>
+    <updated>2022-09-24T06:53:23.602Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;安装-amp-使用-环境变量&quot;&gt;&lt;a href=&quot;#安装-amp-使用-环境变量&quot; class=&quot;headerlink&quot; title=&quot;安装&amp;amp;使用 环境变量&quot;&gt;&lt;/a&gt;安装&amp;amp;使用 环境变量&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Android&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tools, tools&amp;#x2F;bin, and platform-tools&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ANDROID_HOME&amp;#x3D;[Android SDK PATH] &amp;#x2F;&amp;#x2F; 将该字段添加到 变量 键&amp;#x3D;值 队列里&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#x2F;&amp;#x2F; add path ，将以下路径配置到 变量 PATH ， User PATH， System Path 皆可&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;%ANDROID_HOME%\tools&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;%ANDROID_HOME%\tools\bin&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;%ANDROID_HOME%\platform-tools&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Android" scheme="https://levanax.github.io/categories/Levan-update/Android/"/>
+    
+    
+      <category term="Android Note" scheme="https://levanax.github.io/tags/Android-Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>html5 &amp; javascript 笔记</title>
+    <link href="https://levanax.github.io/2022/09/24/html5/html5-java-script-note/"/>
+    <id>https://levanax.github.io/2022/09/24/html5/html5-java-script-note/</id>
+    <published>2022-09-24T06:42:46.000Z</published>
+    <updated>2022-09-24T06:44:22.177Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;HTML5&quot;&gt;&lt;a href=&quot;#HTML5&quot; class=&quot;headerlink&quot; title=&quot;HTML5&quot;&gt;&lt;/a&gt;HTML5&lt;/h2&gt;&lt;h3 id=&quot;浏览器-user-agent-标识判断&quot;&gt;&lt;a href=&quot;#浏览器-user-agent-标识判断&quot; class=&quot;headerlink&quot; title=&quot;浏览器 user-agent 标识判断&quot;&gt;&lt;/a&gt;浏览器 user-agent 标识判断&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/User-Agent&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/User-Agent&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/HTML&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/HTML&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/HTTP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/HTTP&lt;/a&gt;&lt;/p&gt;&lt;h3 id=&quot;input&quot;&gt;&lt;a href=&quot;#input&quot; class=&quot;headerlink&quot; title=&quot;input&quot;&gt;&lt;/a&gt;input&lt;/h3&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!--- 不被html5后规范采纳的，仅用于解决Iphone 输入框，弹出数字键盘，却又可以在代码中加入逗号用作格式化 ---&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;placeholder&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;inputmode&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;decimal&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!--- html5 新特性，安卓手机 弹出键盘是可以有小数点的 ---&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;placeholder&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test2&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test2&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;pattern&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;[0-9]*&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr&gt;&lt;h3 id=&quot;form表单内-button-type-submit&quot;&gt;&lt;a href=&quot;#form表单内-button-type-submit&quot; class=&quot;headerlink&quot; title=&quot;form表单内 button type=submit&quot;&gt;&lt;/a&gt;form表单内 button type=submit&lt;/h3&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;form&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;name&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;username&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;submit&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;onclick&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;login&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;form&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;&lt;p&gt;预期：以上代码结构，我想在 点击 submit button 时，在click login 方法内以ajax方式请求后端&lt;br&gt;&lt;em&gt;不能以改结构方式处理，因为form input submit 都与style相关联&lt;/em&gt;&lt;br&gt;问题：实际结果始终不如预期&lt;br&gt;原因： form表单虽然没有 action 属性，点击 submit同样会触发form 提交方式，action为当前地址栏URL&lt;br&gt;解决：点击submit button 时，使用 e.preventDefault(); 阻止默认的from表单提交方式&lt;/p&gt;&lt;/blockquote&gt;&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Web" scheme="https://levanax.github.io/categories/Levan-update/Web/"/>
+    
+    
+      <category term="html5" scheme="https://levanax.github.io/tags/html5/"/>
+    
+      <category term="javascript笔记" scheme="https://levanax.github.io/tags/javascript%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux笔记</title>
+    <link href="https://levanax.github.io/2022/09/24/linux/linux-cmd-note/"/>
+    <id>https://levanax.github.io/2022/09/24/linux/linux-cmd-note/</id>
+    <published>2022-09-24T06:42:08.000Z</published>
+    <updated>2022-09-24T07:05:49.461Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h2&gt;&lt;h3 id=&quot;新建&quot;&gt;&lt;a href=&quot;#新建&quot; class=&quot;headerlink&quot; title=&quot;新建&quot;&gt;&lt;/a&gt;新建&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 在当前目录下新建 test 文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&lt;span class=&quot;built_in&quot;&gt;mkdir&lt;/span&gt; test&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;查找&quot;&gt;&lt;a href=&quot;#查找&quot; class=&quot;headerlink&quot; title=&quot;查找&quot;&gt;&lt;/a&gt;查找&lt;/h3&gt;&lt;h4 id=&quot;简单查找&quot;&gt;&lt;a href=&quot;#简单查找&quot; class=&quot;headerlink&quot; title=&quot;简单查找&quot;&gt;&lt;/a&gt;简单查找&lt;/h4&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ls -l &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; - 简写为ll -查看目录下文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$less file&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;? 向上查找&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/ 向下查找&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;n 使用查找后,跳到下个匹配位置&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;N 跳至上一个匹配位置&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&quot;正则表达式搜索文件&quot;&gt;&lt;a href=&quot;#正则表达式搜索文件&quot; class=&quot;headerlink&quot; title=&quot;正则表达式搜索文件&quot;&gt;&lt;/a&gt;正则表达式搜索文件&lt;/h4&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$egrep -i -a1 &#39;loadWithdrawalacc[a-zA-Z -]+&lt;span class=&quot;number&quot;&gt;0324&lt;/span&gt;&#39;  &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;goportal.log&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -i 忽略大小写&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -b1 匹配前一行&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -a1 包含被匹配后一行&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;egrep -i  &#39;action.*K00660232&#39;  &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;goportal.log &amp;gt; K00660232.log&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -i 忽略大小写&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; * 匹配任意字符&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &amp;gt; K00660232.log #意思是按前面的正则匹配出来的所有行，另存为一份文件（名称：K00660232.log）&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;su  #进入root权限&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;exit&lt;/span&gt; #退出su 进入的root权限&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;su test #切换用户为 test&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;复制&quot;&gt;&lt;a href=&quot;#复制&quot; class=&quot;headerlink&quot; title=&quot;复制&quot;&gt;&lt;/a&gt;复制&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Linux命令，复制文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$cp -r MR BOUAT27 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;将 MR文件夹所有文件 复制到 BOUAT27（BOUAT27 不存在）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;如果BOUAT27 已经存在&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$cp -r MR/.  BOUAT27&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;复制-A-Linux-到-B-Linux&quot;&gt;&lt;a href=&quot;#复制-A-Linux-到-B-Linux&quot; class=&quot;headerlink&quot; title=&quot;复制 A Linux 到 B Linux&quot;&gt;&lt;/a&gt;复制 A Linux 到 B Linux&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;linux 复制命令：scp -r user@remotehost:&amp;#x2F;home&amp;#x2F;backups &amp;#x2F;home&amp;#x2F;slynux&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- 远程机A目录：user@remotehost:&amp;#x2F;home&amp;#x2F;backups&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- 本机A 目录:  &amp;#x2F;home&amp;#x2F;slynux&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;*从远程机目录A 复制到 本机 目录A，或者调换 目录，前后顺序，即从本机复制到远程机&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$rsync -chavzP --stats  --exclude-from&amp;#x3D;&amp;quot;.&amp;#x2F;exclude_path.txt&amp;quot; tomcat@192.168.1.40:&amp;#x2F;home&amp;#x2F;tomcat&amp;#x2F;levana-test test2022&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#.&amp;#x2F;exclude_path.txt 文件内容如下&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tttt &amp;#x2F;&amp;#x2F;被忽略的指定目录&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$rsync -chavzP --stats  --exclude&amp;#x3D;&amp;quot;test*&amp;quot; tomcat@192.168.1.40:&amp;#x2F;home&amp;#x2F;tomcat&amp;#x2F;levana-test test2022&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;test*  &amp;#x2F;&amp;#x2F; 被忽略文件夹名称规则 -正则表达式&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;压缩-解压&quot;&gt;&lt;a href=&quot;#压缩-解压&quot; class=&quot;headerlink&quot; title=&quot;压缩/解压&quot;&gt;&lt;/a&gt;压缩/解压&lt;/h3&gt;&lt;h4 id=&quot;ZIP&quot;&gt;&lt;a href=&quot;#ZIP&quot; class=&quot;headerlink&quot; title=&quot;ZIP&quot;&gt;&lt;/a&gt;ZIP&lt;/h4&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;zip all.zip *.jpg   #将所有.jpg的文件压缩成一个zip包&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;unzip all.zip    #将all.zip中的所有文件解压到当前目录中&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;unzip all.zip -d all #将all.zip 中的所有文件解压到当前目录中的all文件夹中&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;zip -r hy.zip hy  #将当前目录下的hy文件夹压缩为hy.zip&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;zip -r hy.zip hy &lt;span class=&quot;number&quot;&gt;123&lt;/span&gt;.txt  #将当前目录下的hy文件夹和&lt;span class=&quot;number&quot;&gt;123&lt;/span&gt;.txt压缩为hy.zip&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar -zxvf ×××.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar -jxvf ×××.tar.bz2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;编辑&quot;&gt;&lt;a href=&quot;#编辑&quot; class=&quot;headerlink&quot; title=&quot;编辑&quot;&gt;&lt;/a&gt;编辑&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;vi /test.txt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:%s/aaa/bbb/g  #批量替换 aaa 为 bbb&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+      <category term="Linux" scheme="https://levanax.github.io/categories/Levan-update/Linux/"/>
+    
+    
+      <category term="Linux笔记" scheme="https://levanax.github.io/tags/Linux%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tomcat</title>
+    <link href="https://levanax.github.io/2022/09/24/java/server/"/>
+    <id>https://levanax.github.io/2022/09/24/java/server/</id>
+    <published>2022-09-24T06:31:34.000Z</published>
+    <updated>2022-09-24T06:32:39.080Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Jul 26, 2018 11:01:02 AM org.apache.catalina.core.StandardContext startInternal&lt;br&gt;SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file&lt;br&gt;Jul 26, 2018 11:01:02 AM org.apache.catalina.core.StandardContext startInternal&lt;br&gt;SEVERE: Context [] startup failed due to previous errors&lt;br&gt;web exit …&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
+    
+    
+      <category term="tomcat" scheme="https://levanax.github.io/tags/tomcat/"/>
+    
+      <category term="Nessus" scheme="https://levanax.github.io/tags/Nessus/"/>
+    
+  </entry>
   
   <entry>
     <title>Android APK 反编译</title>
@@ -59,29 +222,6 @@
   </entry>
   
   <entry>
-    <title>Linux笔记</title>
-    <link href="https://levanax.github.io/2021/01/16/linux/linux-cmd-note/"/>
-    <id>https://levanax.github.io/2021/01/16/linux/linux-cmd-note/</id>
-    <published>2021-01-16T08:08:29.000Z</published>
-    <updated>2021-01-16T08:13:23.148Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h2&gt;&lt;h3 id=&quot;新建&quot;&gt;&lt;a href=&quot;#新建&quot; class=&quot;headerlink&quot; title=&quot;新建&quot;&gt;&lt;/a&gt;新建&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 在当前目录下新建 test 文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$&lt;span class=&quot;built_in&quot;&gt;mkdir&lt;/span&gt; test&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;查找&quot;&gt;&lt;a href=&quot;#查找&quot; class=&quot;headerlink&quot; title=&quot;查找&quot;&gt;&lt;/a&gt;查找&lt;/h3&gt;&lt;h4 id=&quot;简单查找&quot;&gt;&lt;a href=&quot;#简单查找&quot; class=&quot;headerlink&quot; title=&quot;简单查找&quot;&gt;&lt;/a&gt;简单查找&lt;/h4&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ls -l &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; - 简写为ll -查看目录下文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$less file&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;? 向上查找&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/ 向下查找&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;n 使用查找后,跳到下个匹配位置&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;N 跳至上一个匹配位置&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&quot;正则表达式搜索文件&quot;&gt;&lt;a href=&quot;#正则表达式搜索文件&quot; class=&quot;headerlink&quot; title=&quot;正则表达式搜索文件&quot;&gt;&lt;/a&gt;正则表达式搜索文件&lt;/h4&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$egrep -i -a1 &#39;loadWithdrawalacc[a-zA-Z -]+&lt;span class=&quot;number&quot;&gt;0324&lt;/span&gt;&#39;  &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;goportal.log&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -i 忽略大小写&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -b1 匹配前一行&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -a1 包含被匹配后一行&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;egrep -i  &#39;action.*K00660232&#39;  &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;goportal.log &amp;gt; K00660232.log&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -i 忽略大小写&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; * 匹配任意字符&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &amp;gt; K00660232.log #意思是按前面的正则匹配出来的所有行，另存为一份文件（名称：K00660232.log）&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;su  #进入root权限&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;exit&lt;/span&gt; #退出su 进入的root权限&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;su test #切换用户为 test&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;复制&quot;&gt;&lt;a href=&quot;#复制&quot; class=&quot;headerlink&quot; title=&quot;复制&quot;&gt;&lt;/a&gt;复制&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Linux命令，复制文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$cp -r MR BOUAT27 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;将 MR文件夹所有文件 复制到 BOUAT27（BOUAT27 不存在）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;如果BOUAT27 已经存在&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$cp -r MR/.  BOUAT27&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;复制-A-Linux-到-B-Linux&quot;&gt;&lt;a href=&quot;#复制-A-Linux-到-B-Linux&quot; class=&quot;headerlink&quot; title=&quot;复制 A Linux 到 B Linux&quot;&gt;&lt;/a&gt;复制 A Linux 到 B Linux&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;linux 复制命令：scp -r user@remotehost:&amp;#x2F;home&amp;#x2F;backups &amp;#x2F;home&amp;#x2F;slynux&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- 远程机A目录：user@remotehost:&amp;#x2F;home&amp;#x2F;backups&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- 本机A 目录:  &amp;#x2F;home&amp;#x2F;slynux&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;*从远程机目录A 复制到 本机 目录A，或者调换 目录，前后顺序，即从本机复制到远程机&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;压缩&quot;&gt;&lt;a href=&quot;#压缩&quot; class=&quot;headerlink&quot; title=&quot;压缩&quot;&gt;&lt;/a&gt;压缩&lt;/h3&gt;&lt;h4 id=&quot;ZIP&quot;&gt;&lt;a href=&quot;#ZIP&quot; class=&quot;headerlink&quot; title=&quot;ZIP&quot;&gt;&lt;/a&gt;ZIP&lt;/h4&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;zip all.zip *.jpg   #将所有.jpg的文件压缩成一个zip包&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;unzip all.zip    #将all.zip中的所有文件解压到当前目录中&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;unzip all.zip -d all #将all.zip 中的所有文件解压到当前目录中的all文件夹中&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;zip -r hy.zip hy  #将当前目录下的hy文件夹压缩为hy.zip&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;zip -r hy.zip hy &lt;span class=&quot;number&quot;&gt;123&lt;/span&gt;.txt  #将当前目录下的hy文件夹和&lt;span class=&quot;number&quot;&gt;123&lt;/span&gt;.txt压缩为hy.zip&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;编辑&quot;&gt;&lt;a href=&quot;#编辑&quot; class=&quot;headerlink&quot; title=&quot;编辑&quot;&gt;&lt;/a&gt;编辑&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;vi /test.txt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:%s/aaa/bbb/g  #批量替换 aaa 为 bbb&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
-    
-      <category term="Linux" scheme="https://levanax.github.io/categories/Levan-update/Linux/"/>
-    
-    
-      <category term="Linux笔记" scheme="https://levanax.github.io/tags/Linux%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Cypress 使用记录</title>
     <link href="https://levanax.github.io/2020/09/23/javascript/cypress-note/"/>
     <id>https://levanax.github.io/2020/09/23/javascript/cypress-note/</id>
@@ -122,29 +262,6 @@
     
     
       <category term="Cordova Bug" scheme="https://levanax.github.io/tags/Cordova-Bug/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Note] Android笔记</title>
-    <link href="https://levanax.github.io/2020/09/10/android/android-note/"/>
-    <id>https://levanax.github.io/2020/09/10/android/android-note/</id>
-    <published>2020-09-10T05:55:35.000Z</published>
-    <updated>2020-09-10T06:09:20.966Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h6 id=&quot;安装使用，环境变量&quot;&gt;&lt;a href=&quot;#安装使用，环境变量&quot; class=&quot;headerlink&quot; title=&quot;安装使用，环境变量&quot;&gt;&lt;/a&gt;安装使用，环境变量&lt;/h6&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Android&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tools, tools&amp;#x2F;bin, and platform-tools&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ANDROID_HOME&amp;#x3D;[Android SDK PATH] &amp;#x2F;&amp;#x2F; 将该字段添加到 变量 键&amp;#x3D;值 队列里&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#x2F;&amp;#x2F; add path ，将以下路径配置到 变量 PATH ， User PATH， System Path 皆可&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;%ANDROID_HOME%\tools&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;%ANDROID_HOME%\tools\bin&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;%ANDROID_HOME%\platform-tools&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
-    
-      <category term="Android" scheme="https://levanax.github.io/categories/Levan-update/Android/"/>
-    
-    
-      <category term="Android Note" scheme="https://levanax.github.io/tags/Android-Note/"/>
     
   </entry>
   
@@ -350,115 +467,6 @@
     
     
       <category term="AES加密" scheme="https://levanax.github.io/tags/AES%E5%8A%A0%E5%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>nginx 笔记</title>
-    <link href="https://levanax.github.io/2019/08/15/server/nginx-note/"/>
-    <id>https://levanax.github.io/2019/08/15/server/nginx-note/</id>
-    <published>2019-08-15T03:51:15.000Z</published>
-    <updated>2019-12-05T11:17:14.251Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;配置：&lt;br&gt;&lt;a href=&quot;https://www.nginx.com/resources/wiki/start/topics/examples/full/#&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.nginx.com/resources/wiki/start/topics/examples/full/#&lt;/a&gt;&lt;/p&gt;&lt;h3 id=&quot;ng-config-使用if出错导致无法正常启动&quot;&gt;&lt;a href=&quot;#ng-config-使用if出错导致无法正常启动&quot; class=&quot;headerlink&quot; title=&quot;ng config 使用if出错导致无法正常启动&quot;&gt;&lt;/a&gt;ng config 使用if出错导致无法正常启动&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;if($domain &amp;#x3D; &amp;quot;test&amp;quot;) &amp;#123;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;上面代码会报错 nginx unknown directive “if( ，导致无法启动&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;if ($domain &amp;#x3D; &amp;quot;test&amp;quot;) &amp;#123;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;解决方法： 在 if 后面添加一个空格，另外注意，如果是字符串需要 双引号包起来。&lt;br&gt;*if 不赞成使用，具体请参考：&lt;a href=&quot;https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/#why-this-happens-and-still-not-fixed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/#why-this-happens-and-still-not-fixed&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
-    
-    
-      <category term="nginx" scheme="https://levanax.github.io/tags/nginx/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>https 单/双向认证</title>
-    <link href="https://levanax.github.io/2019/08/07/https/https/"/>
-    <id>https://levanax.github.io/2019/08/07/https/https/</id>
-    <published>2019-08-07T08:53:13.000Z</published>
-    <updated>2019-08-07T08:53:17.006Z</updated>
-    
-    <summary type="html">
-    
-      &lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;生成服务端证书&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;keytool-genkey -v -alias server -keyalg RSA -storetype PKCS12 -keystore E:\&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;\server.key.p12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;导出证书公钥，安装到客户端&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;keytool-keystore E:\&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;\server.key.p12 -export -alias server -file E:\&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;\server.cer&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/weixin_41917987/article/details/80987835&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://blog.csdn.net/weixin_41917987/article/details/80987835&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
-    
-    
-      <category term="https" scheme="https://levanax.github.io/tags/https/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hyper-v 记录</title>
-    <link href="https://levanax.github.io/2019/05/23/vm/hyper-v/"/>
-    <id>https://levanax.github.io/2019/05/23/vm/hyper-v/</id>
-    <published>2019-05-23T02:31:31.000Z</published>
-    <updated>2019-05-23T02:32:28.891Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;Hyper-v&quot;&gt;&lt;a href=&quot;#Hyper-v&quot; class=&quot;headerlink&quot; title=&quot;Hyper-v&quot;&gt;&lt;/a&gt;Hyper-v&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#关闭hyper-v&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;bcdedit &amp;#x2F;set hypervisorlaunchtype off。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#启用hyper-v&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;bcdedit &amp;#x2F;set hypervisorlaunchtype auto&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
-    
-    
-      <category term="Hyper-v" scheme="https://levanax.github.io/tags/Hyper-v/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>cordova + vue 开发 Mobile app</title>
-    <link href="https://levanax.github.io/2019/05/16/cordova/corodva-vue-app/"/>
-    <id>https://levanax.github.io/2019/05/16/cordova/corodva-vue-app/</id>
-    <published>2019-05-16T08:04:24.000Z</published>
-    <updated>2019-05-16T08:14:19.340Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;技术框架&quot;&gt;&lt;a href=&quot;#技术框架&quot; class=&quot;headerlink&quot; title=&quot;技术框架&quot;&gt;&lt;/a&gt;技术框架&lt;/h1&gt;&lt;p&gt;cordova 9.0.0 (&lt;a href=&quot;mailto:cordova-lib@9.0.1&quot;&gt;cordova-lib@9.0.1&lt;/a&gt;)&lt;br&gt;vue-cli3 ,vue^2.6.10&lt;/p&gt;&lt;h2 id=&quot;遇到的问题记录&quot;&gt;&lt;a href=&quot;#遇到的问题记录&quot; class=&quot;headerlink&quot; title=&quot;遇到的问题记录&quot;&gt;&lt;/a&gt;遇到的问题记录&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;使用 vue build + cordova build android 后，在手机上运行，出现一片白屏后无反应&lt;br&gt;解决办法：&lt;br&gt;在 vue.config.js 增加配置项如下&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;baseUrl: &lt;span class=&quot;string&quot;&gt;&#39;android_asset/www/&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;&lt;/ol&gt;
-    
-    </summary>
-    
-    
-      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
-    
-    
-      <category term="vue cordova" scheme="https://levanax.github.io/tags/vue-cordova/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>html5 &amp; javascript 笔记</title>
-    <link href="https://levanax.github.io/2019/05/14/html5/html5-java-script-note/"/>
-    <id>https://levanax.github.io/2019/05/14/html5/html5-java-script-note/</id>
-    <published>2019-05-14T02:53:16.000Z</published>
-    <updated>2021-01-18T03:38:19.211Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;HTML5&quot;&gt;&lt;a href=&quot;#HTML5&quot; class=&quot;headerlink&quot; title=&quot;HTML5&quot;&gt;&lt;/a&gt;HTML5&lt;/h2&gt;&lt;h3 id=&quot;浏览器-user-agent-标识判断&quot;&gt;&lt;a href=&quot;#浏览器-user-agent-标识判断&quot; class=&quot;headerlink&quot; title=&quot;浏览器 user-agent 标识判断&quot;&gt;&lt;/a&gt;浏览器 user-agent 标识判断&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/User-Agent&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/User-Agent&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/HTML&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/HTML&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/HTTP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/HTTP&lt;/a&gt;&lt;/p&gt;&lt;h3 id=&quot;input&quot;&gt;&lt;a href=&quot;#input&quot; class=&quot;headerlink&quot; title=&quot;input&quot;&gt;&lt;/a&gt;input&lt;/h3&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!--- 不被html5后规范采纳的，仅用于解决Iphone 输入框，弹出数字键盘，却又可以在代码中加入逗号用作格式化 ---&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;placeholder&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;inputmode&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;decimal&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!--- html5 新特性，安卓手机 弹出键盘是可以有小数点的 ---&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;placeholder&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test2&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;test2&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;pattern&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;[0-9]*&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr&gt;&lt;h3 id=&quot;form表单内-button-type-submit&quot;&gt;&lt;a href=&quot;#form表单内-button-type-submit&quot; class=&quot;headerlink&quot; title=&quot;form表单内 button type=submit&quot;&gt;&lt;/a&gt;form表单内 button type=submit&lt;/h3&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;form&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;name&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;username&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;submit&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;onclick&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;login&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;form&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;&lt;p&gt;预期：以上代码结构，我想在 点击 submit button 时，在click login 方法内以ajax方式请求后端&lt;br&gt;&lt;em&gt;不能以改结构方式处理，因为form input submit 都与style相关联&lt;/em&gt;&lt;br&gt;问题：实际结果始终不如预期&lt;br&gt;原因： form表单虽然没有 action 属性，点击 submit同样会触发form 提交方式，action为当前地址栏URL&lt;br&gt;解决：点击submit button 时，使用 e.preventDefault(); 阻止默认的from表单提交方式&lt;/p&gt;&lt;/blockquote&gt;&lt;hr&gt;
-    
-    </summary>
-    
-    
-      <category term="Levan update" scheme="https://levanax.github.io/categories/Levan-update/"/>
-    
-      <category term="Web" scheme="https://levanax.github.io/categories/Levan-update/Web/"/>
-    
-    
-      <category term="html5" scheme="https://levanax.github.io/tags/html5/"/>
-    
-      <category term="javascript笔记" scheme="https://levanax.github.io/tags/javascript%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   

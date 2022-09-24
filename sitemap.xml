@@ -2,9 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://levanax.github.io/2019/05/14/html5/html5-java-script-note/</loc>
+    <loc>https://levanax.github.io/2022/09/24/linux/linux-cmd-note/</loc>
     
-    <lastmod>2021-01-18T03:38:19.211Z</lastmod>
+    <lastmod>2022-09-24T07:05:49.461Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://levanax.github.io/2022/09/24/IDE/eclipse/</loc>
+    
+    <lastmod>2022-09-24T07:05:15.314Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://levanax.github.io/2022/09/24/IDE/sonarqube/</loc>
+    
+    <lastmod>2022-09-24T07:01:21.181Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://levanax.github.io/2022/09/24/IDE/xcode/</loc>
+    
+    <lastmod>2022-09-24T06:56:17.836Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://levanax.github.io/2022/09/24/android/android-note/</loc>
+    
+    <lastmod>2022-09-24T06:53:23.602Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://levanax.github.io/2022/09/24/html5/html5-java-script-note/</loc>
+    
+    <lastmod>2022-09-24T06:44:22.177Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://levanax.github.io/2022/09/24/java/server/</loc>
+    
+    <lastmod>2022-09-24T06:32:39.080Z</lastmod>
     
   </url>
   
@@ -19,13 +61,6 @@
     <loc>https://levanax.github.io/2021/01/16/html5/reg-exp/</loc>
     
     <lastmod>2021-01-16T08:18:03.681Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://levanax.github.io/2021/01/16/linux/linux-cmd-note/</loc>
-    
-    <lastmod>2021-01-16T08:13:23.148Z</lastmod>
     
   </url>
   
@@ -72,13 +107,6 @@
   </url>
   
   <url>
-    <loc>https://levanax.github.io/2020/09/10/android/android-note/</loc>
-    
-    <lastmod>2020-09-10T06:09:20.966Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://levanax.github.io/2018/05/17/android/android-bug-1/</loc>
     
     <lastmod>2020-09-10T06:08:06.197Z</lastmod>
@@ -96,13 +124,6 @@
     <loc>https://levanax.github.io/2018/07/23/dev-env/window/</loc>
     
     <lastmod>2020-06-24T00:44:59.800Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://levanax.github.io/2018/07/26/java/server/</loc>
-    
-    <lastmod>2020-06-23T12:20:37.634Z</lastmod>
     
   </url>
   
